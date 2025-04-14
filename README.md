@@ -1,7 +1,7 @@
-# DualMAR
-**Title:** DualMAR: Medical-Augmented Representation from Dual-Expertise Perspectives
+# DuaLK
+**Title:** Bridging Stepwise Lab-Informed Pretraining and Knowledge-Guided Learning for Diagnostic Reasoning
 
-Pytorch implementation of DualMAR paper
+Pytorch implementation of DuaLK paper
 
 ## Technical Appendix
 
