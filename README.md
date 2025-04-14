@@ -3,10 +3,6 @@
 
 Pytorch implementation of DuaLK paper
 
-## Technical Appendix
-
-Please see `dualmar_technical_appendix.pdf` to check detailed information.
-
 ## Requirements
 - python>=3.10
 - torch==2.3.1
