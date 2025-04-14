@@ -1,0 +1,199 @@
+rare_name,icd_name,cosine_sim,icd-9
+auditory neuropathy spectrum disorder,neurotic disorders personality disorders and other nonpsychotic mental disorders ,0.9616287350654602,300-316
+autoimmune blistering diseases,Autoimmune hemolytic anemias,0.9667592644691467,2830
+autoimmune polyendocrine syndrome type ii,Autoimmune hemolytic anemias,0.9519045352935791,2830
+autoimmune polyglandular syndrome type 1,Autoimmune hemolytic anemias,0.9530727863311768,2830
+autoimmune hepatitis,autoimmune hepatitis,1.0,57142
+autoinflammation with infantile enterocolitis,noninflammatory disorders of vulva and perineum,0.9550877213478088,624
+autosomal dominant hereditary ataxia,Other autosomal deletions,0.9456477165222168,75839
+autosomal dominant hyper ige syndrome,hyperkinetic syndrome of childhood,0.9437706470489502,314
+autosomal dominant polycystic kidney disease,"Polycystic kidney, autosomal dominant",0.9746675491333008,75313
+autosomal dominant tubulointerstitial kidney disease,"Polycystic kidney, autosomal dominant",0.9514952301979065,75313
+autosomal dominant porencephaly type i,Congenital ectodermal dysplasia,0.9229722023010254,75731
+autosomal recessive hyper ige syndrome,"Polycystic kidney, autosomal recessive",0.9446955919265747,75314
+autosomal recessive polycystic kidney disease,"Polycystic kidney, autosomal recessive",0.9731050133705139,75314
+autosomal recessive hypophosphatemic rickets type 2,disseminated superficial actinic porokeratosis dsap,0.9342986345291138,69275
+dyskeratosis congenita,disseminated superficial actinic porokeratosis dsap,0.9593499898910522,69275
+xlinked protoporphyria,disseminated superficial actinic porokeratosis dsap,0.9458776116371155,69275
+axenfeldrieger syndrome,werdnighoffmann disease,0.937717616558075,3350
+jervell and langenielsen syndrome,werdnighoffmann disease,0.9505515098571777,3350
+rubinsteintaybi syndrome,werdnighoffmann disease,0.9314575791358948,3350
+brown syndrome,cushings syndrome,0.9585354328155518,2550
+cushing syndrome,cushings syndrome,0.9861027002334595,2550
+brucellosis,brucellosis,1.0,023
+brugada syndrome,digeorges syndrome,0.9576461315155029,27911
+dubin johnson syndrome,digeorges syndrome,0.9427198171615601,27911
+joubert syndrome,digeorges syndrome,0.9612317085266113,27911
+usher syndrome,digeorges syndrome,0.9636850953102112,27911
+budd chiari syndrome,voyeurism,0.9656009078025818,30282
+dup15q syndrome,voyeurism,0.9397843480110168,30282
+esco2 spectrum disorder,voyeurism,0.962961733341217,30282
+juvenile cln3 disease,voyeurism,0.9460027813911438,30282
+myhre syndrome,voyeurism,0.966964066028595,30282
+roussy lvy syndrome,voyeurism,0.9538227319717407,30282
+xyy syndrome,voyeurism,0.931027889251709,30282
+yunis varon syndrome,voyeurism,0.9620491862297058,30282
+buergers disease,ritters disease,0.9588919281959534,69581
+kufor rakeb syndrome,ritters disease,0.9572948217391968,69581
+russellsilver syndrome,ritters disease,0.9538461565971375,69581
+bullous pemphigoid,pemphigoid,0.9677188396453857,6945
+cutaneous tcell lymphomas,"Peripheral T cell lymphoma, spleen",0.9566593766212463,20277
+cutaneous vasculitis,retinal vasculitis,0.9615947604179382,36218
+vasculitis,retinal vasculitis,0.960378885269165,36218
+cutis laxa,tabes dorsalis,0.9508801102638245,0940
+cutis marmorata telangiectatica congenita,scleromalacia perforans,0.9430570006370544,37904
+cyclic neutropenia,Cyclic neutropenia,0.9975278377532959,28802
+cyclic vomiting syndrome,manic disorder recurrent episode,0.9677394032478333,2961
+cystic fibrosis,cystic fibrosis,1.0,2770
+cystic fibrosis,cystic fibrosis,1.0,V776
+cysticercosis,cysticercosis,1.0,1231
+cystinosis,cystitis,0.9784591197967529,595
+cystinuria,chyluria,0.9696041941642761,7911
+cytochrome c oxidase deficiency,chondrocalcinosis due to pyrophosphate crystals,0.9238133430480957,7122
+cytomegalovirus infection,cytomegaloviral disease,0.9876145124435425,0785
+duane syndrome,duanes syndrome,0.9841977953910828,37871
+noonan syndrome,duanes syndrome,0.9675050377845764,37871
+noonan syndrome with multiple lentigines,duanes syndrome,0.9423598051071167,37871
+robinow syndrome,duanes syndrome,0.9383158683776855,37871
+dubowitz syndrome,kaschinbeck disease,0.928864598274231,7160
+jacksonweiss syndrome,kaschinbeck disease,0.9439979195594788,7160
+rosenberg chutorian syndrome,kaschinbeck disease,0.9503202438354492,7160
+swyer syndrome,kaschinbeck disease,0.959983229637146,7160
+zollingerellison syndrome,kaschinbeck disease,0.9645703434944153,7160
+duchenne muscular dystrophy,myotonic muscular dystrophy,0.9502156972885132,35921
+myotonic dystrophy,myotonic muscular dystrophy,0.9898614287376404,35921
+duodenal atresia or stenosis,Atresia and stenosis of small intestine,0.9614012837409973,7511
+dyggve melchior clausen syndrome,stevensjohnson syndrometoxic epidermal necrolysis overlap syndrome,0.9305007457733154,69514
+dysautonomia familial,Familial polycythemia,0.9506781101226807,2896
+dysplasia epiphysealis hemimelica,Multiple epiphyseal dysplasia,0.9627295136451721,75656
+dystonia,Dysarthria,0.9731065034866333,78451
+erythromelalgia,erythromelalgia,1.0,44382
+erythropoietic protoporphyria and xlinked protoporphyria,phlebitis and thrombophlebitis of intracranial venous sinuses,0.931448757648468,325
+esophageal atresia andor tracheoesophageal fistula,"Tracheoesophageal fistula, esophageal atresia and stenosis",0.9779137969017029,7503
+esophageal cancer,esophagitis,0.9691518545150757,5301
+essential iris atrophy,other iris atrophy,0.9727837443351746,36459
+essential thrombocythemia,essential thrombocythemia,1.0,23871
+evans syndrome,Evans' syndrome,0.985533595085144,28732
+ewing sarcoma,equatorial staphyloma,0.9615477919578552,37913
+fukuyama type congenital muscular dystrophy,congenital hereditary muscular dystrophy,0.9375566840171814,3590
+functional neurological disorder,motor neuron disease,0.9557698965072632,3352
+granulomatosis with polyangiitis,"Leukemic reticuloendotheliosis, spleen",0.9524565935134888,20247
+graves disease,picks disease,0.9725267887115479,33111
+greig cephalopolysyndactyly syndrome,cholera with typhoidparatyphoid cholera tab,0.9410967230796814,V060
+growth hormone deficiency,combined immunity deficiency,0.9567950367927551,2792
+growth hormone insensitivity,partial androgen insensitivity,0.974066436290741,25952
+guanidinoacetate methyltransferase deficiency,glucocorticoidremediable aldosteronism,0.9315436482429504,25511
+guillainbarr syndrome,Marfan syndrome,0.9450297951698303,75982
+johansonblizzard syndrome,Marfan syndrome,0.9564518928527832,75982
+rosaidorfman disease,Marfan syndrome,0.961033821105957,75982
+hypothalamic obesity acquired,acquired hypothyroidism,0.963495671749115,244
+imperforate anus,Imperforate hymen,0.9802634716033936,75242
+incontinentia pigmenti,infective myositis,0.9642289280891418,7280
+infective endocarditis,infective myositis,0.9642632007598877,7280
+infantile myofibromatosis,Congenital bronchiectasis,0.9497589468955994,74861
+irf6related disorders,pseudocowpox,0.9296267628669739,0511
+ryr1related diseases,pseudocowpox,0.9309448003768921,0511
+usp7related diseases,pseudocowpox,0.9327736496925354,0511
+isovaleric acidemia,enteric tularemia,0.9550487995147705,0211
+ivemark syndrome,refsums disease,0.9499000310897827,3563
+norrie disease,refsums disease,0.9600911736488342,3563
+von hippellindau disease,refsums disease,0.9539619088172913,3563
+jansen type metaphyseal chondrodysplasia,myotonic chondrodystrophy,0.9599827527999878,35923
+xlinked adrenoleukodystrophy,myotonic chondrodystrophy,0.9447999596595764,35923
+jejunal atresia,Biliary atresia,0.960077166557312,75161
+jubergmarsidi syndrome,rhinosporidiosis,0.9164706468582153,1170
+jumping frenchmen of maine,soemmerings ring,0.9295248985290527,36651
+juvenile hemochromatosis,Hereditary hemochromatosis,0.9851848483085632,27501
+juvenile myelomonocytic leukemia,myeloid leukemia,0.9579702019691467,205
+juvenile myelomonocytic leukemia,myeloid leukemia,0.9579702019691467,V1062
+juvenile ossifying fibroma,Polyostotic fibrous dysplasia of bone,0.9333594441413879,75654
+juvenile pilocytic astrocytoma,circumpapillary dystrophy of choroid total,0.9448038339614868,36352
+koolende vries syndrome,mnires disease,0.9516807198524475,3860
+low gammagt familial intrahepatic cholestasis,perinatal jaundice from hereditary hemolytic anemias,0.9526799321174622,7740
+lowe syndrome,Bandemia,0.9485300183296204,28866
+lymphangioleiomyomatosis,Lymphangioleiomyomatosis,0.9973869323730469,5164
+lymphatic malformations,"Other malignant lymphomas, intrapelvic lymph nodes",0.9467930197715759,20286
+lymphedemadistichiasis syndrome,dyshormonogenic goiter,0.9547675251960754,2461
+lymphocytic infiltrate of jessner,"Tuberculosis of lung, infiltrative, tubercle bacilli found (in sputum) by microscopy",0.9498658180236816,01103
+lymphomatoid granulomatosis,lymphocytic choriomeningitis,0.9511457681655884,0490
+lysosomal free sialic acid storage disorders,"Chondrocalcinosis, due to dicalcium phosphate crystals, forearm",0.9362164735794067,71213
+lysosomal storage disorders,pneumonia in cytomegalic inclusion disease,0.924271821975708,4841
+mutism selective,selective mutism,0.9663435220718384,31323
+myasthenia gravis,myasthenia gravis,1.0,3580
+mycosis fungoides,mycosis fungoides,1.0,2021
+myelodysplastic syndromes,myelodysplastic syndrome with 5q deletion,0.9618067145347595,23874
+myocarditis,septic myocarditis,0.9712595343589783,42292
+myofibrillar myopathy,myocardial degeneration,0.9593814611434937,4291
+myopathy scapuloperoneal,postdysenteric arthropathy,0.9445629715919495,7113
+myotonia congenita,myotonia congenita,1.0,35922
+nonketotic hyperglycinemia,hypercarotinemia,0.9548501968383789,2783
+nontuberculous mycobacterial lung disease,primary extrapulmonary coccidioidomycosis,0.9416683912277222,1141
+norse new onset refractory status epilepticus and fires febrile infectionrelated epilepsy syndrome,"Localization-related (focal) (partial) epilepsy and epileptic syndromes with complex partial seizures, without mention of intractable epilepsy",0.9317007660865784,34540
+ovarian cancer,ovarian pregnancy,0.9802316427230835,6332
+ovotesticular disorder of sex development,perinatal disorders of digestive system,0.94264155626297,777
+pyruvate dehydrogenase complex deficiency,"Chondrocalcinosis, due to pyrophosphate crystals, hand",0.9202173948287964,71224
+tyrosine hydroxylase deficiency,"Chondrocalcinosis, due to pyrophosphate crystals, hand",0.9270215034484863,71224
+pyruvate kinase deficiency,primary carnitine deficiency,0.9390169978141785,27781
+systemic primary carnitine deficiency,primary carnitine deficiency,0.9880003333091736,27781
+q fever,q fever,1.0,0830
+ring chromosome 4,testis,0.924061119556427,2220
+ring chromosome 4,testis,0.924061119556427,2364
+ring chromosome 4,testis,0.924061119556427,V1047
+ring chromosome 4,testis,0.924061119556427,V1643
+ring chromosome 4,testis,0.924061119556427,V7645
+rocky mountain spotted fever,trench fever,0.9513491988182068,0831
+rothmundthomson syndrome,jakobcreutzfeldt disease,0.9402112364768982,0461
+rubella,rubella,1.0,056
+rubella,rubella,1.0,6475
+rubella,rubella,1.0,V014
+rubella,rubella,1.0,V733
+rubella congenital,congenital rubella,0.9775316119194031,7710
+sweet syndrome,hungry bone syndrome,0.9611526727676392,2755
+sydenham chorea,rheumatic chorea,0.9398865699768066,392
+syngap1related nsid,privation unqualified,0.898659348487854,E9049
+syphilis acquired,syphilis,0.9799084663391113,6470
+syringobulbia,syringomyelia and syringobulbia,0.9607120156288147,3360
+syringomyelia,syringomyelia and syringobulbia,0.972621500492096,3360
+systemic capillary leak syndrome,plateau iris syndrome,0.9536381959915161,36482
+systemic scleroderma,systemic sclerosis,0.9673670530319214,7101
+twintwin transfusion syndrome,placental transfusion syndromes,0.9450274705886841,7623
+typhoid,typhoid,1.0,V021
+tyrosinemia type 1,iodine hypothyroidism,0.9294991493225098,2442
+ugdhrelated disorder,other highrisk pregnancy,0.936691164970398,V238
+ugdhrelated disorder,other highrisk pregnancy,0.936691164970398,V2389
+ulcerative colitis,ulcerative colitis,1.0,556
+urachal cancer,trachoma,0.9529309868812561,076
+urachal cancer,trachoma,0.9529309868812561,V736
+urofacial syndrome,orbital cellulitis,0.9546893835067749,37601
+urothelial carcinoma of the renal pelvis and ureter,malignant carcinoid tumors of the appendix large intestine and rectum,0.9622008800506592,2091
+urticaria cold,urticaria,0.9736787676811218,708
+urticaria physical,urticaria,0.9784671664237976,708
+urticaria papular,urticaria unspecified,0.950731098651886,7089
+uterine leiomyosarcoma,uterine leiomyoma,0.981029212474823,218
+vacterl association,genu recurvatum acquired,0.9512061476707458,7365
+vacterl with hydrocephalus,hydrocephalic fetus causing disproportion,0.9464124441146851,6536
+valinemia,opioid abuse,0.9607194066047668,3055
+variegate porphyria,herpetic vulvovaginitis,0.9535444974899292,05411
+vascular malformations of the brain,benign neoplasm of the brain,0.9486286640167236,V1241
+ventricular septal defects,Ventricular septal defect,0.9656057357788086,7454
+vernal keratonconjunctivitis,epidemic keratoconjunctivitis,0.967073917388916,0771
+very long chain acyl coa dehydrogenase deficiency lcad,"Secondary diabetes mellitus with ketoacidosis, uncontrolled",0.9273807406425476,24911
+visual snow syndrome,sicca syndrome,0.9564616084098816,7102
+vitamin d deficiency rickets,vitamin d deficiency,0.9564502835273743,268
+vogtkoyanagiharada disease,vogtkoyanagi syndrome,0.9696425795555115,36424
+wolman disease,caisson disease,0.9598156809806824,9933
+wyburnmason syndrome,Lambert-Eaton syndrome in neoplastic disease,0.9526552557945251,35831
+x linked lymphoproliferative syndrome,Autoimmune lymphoproliferative syndrome,0.9534200429916382,27941
+xlinked myopathy with excessive autophagy,obscure cardiomyopathy of africa,0.9551613330841064,4252
+xlinked myotubular myopathy,rheumatic aortic stenosis with insufficiency,0.9462247490882874,3952
+xlinked opitz gbbb syndrome,swanneck deformity,0.941612720489502,73622
+xlinked retinoschisis,retinoschisis and retinal cysts,0.9609834551811218,3611
+xeroderma pigmentosum,pyoderma gangrenosum,0.9649503231048584,68601
+yaws,yaws,1.0,102
+yaws,yaws,1.0,V746
+yellow fever,yellow fever,1.0,060
+yellow fever,yellow fever,1.0,V044
+yellow fever,yellow fever,1.0,V734
+yellow nail syndrome,blackwater fever,0.956204891204834,0848
+zc4h2associated rare disorders zard,"ABO incompatibility reaction, unspecified",0.9059532880783081,99960
+zellweger spectrum disorders,meckels diverticulum,0.9376348853111267,1523

@@ -1,0 +1,938 @@
+mayo_name,icd_name,cosine_sim,icd-9
+cyclothymia cyclothymic disorder,cyclothymic disorder,0.9557026028633118,30113
+congenital heart defects in children,congenital anomalies of respiratory system,0.9592081904411316,748
+acute liver failure,acute renal failure,0.9763888120651245,584
+acute kidney failure,acute renal failure,0.9816622138023376,584
+anal itching,anal spasm,0.9404208064079285,5646
+arteriosclerosis  atherosclerosis,atherosclerosis,0.9399017691612244,440
+seizures,Post traumatic seizures,0.9725071787834167,78033
+broken ribs,cracked tooth,0.9522039890289307,52181
+broken collarbone,cracked tooth,0.9499661922454834,52181
+broken wrist,cracked tooth,0.9497539401054382,52181
+impacted wisdom teeth,cracked tooth,0.9436497092247009,52181
+broken toe,cracked tooth,0.957627534866333,52181
+broken arm,cracked tooth,0.942152202129364,52181
+hair loss,hearing loss,0.9524623155593872,389
+hearing loss,hearing loss,1.0,389
+jellyfish stings,shellfish,0.9223662614822388,E8651
+pulmonary hypertension,portal hypertension,0.9769614934921265,5723
+factitious disorder,factitious disorder with predominantly psychological signs and symptoms,0.9592196941375732,30016
+narcolepsy,narcolepsy,1.0,3470
+vocal cord paralysis,labyrinthine dysfunction,0.9379623532295227,3865
+cryoglobulinemia,macroglobulinemia,0.9652330279350281,2733
+dehydration,dehydration,1.0,27651
+fetal alcohol syndrome,congenital rubella,0.9379175901412964,7710
+insomnia,insomnia due to mental disorder,0.9707998633384705,32702
+cystic fibrosis,cystic fibrosis,1.0,2770
+cystic fibrosis,cystic fibrosis,1.0,V776
+fibrocystic breasts,cystic fibrosis,0.9470030665397644,2770
+fibrocystic breasts,cystic fibrosis,0.9470030665397644,V776
+drug addiction substance use disorder,tobacco use disorder,0.9570500254631042,3051
+teen depression,tobacco use disorder,0.9445673823356628,3051
+alcohol use disorder,tobacco use disorder,0.9792979955673218,3051
+cholangiocarcinoma bile duct cancer,malignant neoplasm of gallbladder and extrahepatic bile ducts,0.9277047514915466,156
+hilar cholangiocarcinoma,malignant neoplasm of gallbladder and extrahepatic bile ducts,0.9323998689651489,156
+hepatocellular carcinoma,malignant neoplasm of gallbladder and extrahepatic bile ducts,0.9321061372756958,156
+genital herpes,genital herpes,1.0,0541
+kidney cancer,kidney diseases,0.9726420044898987,V186
+chronic traumatic encephalopathy,toxic encephalopathy,0.9564605355262756,34982
+conjoined twins,Conjoined twins,0.9949973225593567,7594
+vasculitis,retinal vasculitis,0.952657163143158,36218
+periodontitis,periodontosis,0.9782015085220337,5235
+orchitis,mumps orchitis,0.957872748374939,0720
+endometrial cancer,endometriosis,0.9698824286460876,617
+endometriosis,endometriosis,1.0,617
+edema,edema,1.0,60886
+edema,edema,1.0,7823
+sexually transmitted diseases stds,other poxvirus infections,0.9406842589378357,059
+sexually transmitted diseases stds,other poxvirus infections,0.9406842589378357,0598
+tension headache,tension headache,1.0,30781
+bingeeating disorder,rumination disorder,0.9524567723274231,30753
+rumination syndrome,rumination disorder,0.9838830232620239,30753
+throat cancer,foot and mouth disease,0.9613668322563171,0784
+clubfoot,foot and mouth disease,0.9527649879455566,0784
+bone cancer,foot and mouth disease,0.9587099552154541,0784
+mouth cancer,foot and mouth disease,0.9629506468772888,0784
+tongue cancer,foot and mouth disease,0.9611231088638306,0784
+skin cancer,foot and mouth disease,0.9657120108604431,0784
+bladder cancer,foot and mouth disease,0.9515267014503479,0784
+stomach cancer,foot and mouth disease,0.9571247100830078,0784
+anal cancer,foot and mouth disease,0.9569647312164307,0784
+liposarcoma,lymphosarcoma,0.9519688487052917,2001
+lymphoma,lymphosarcoma,0.9619956612586975,2001
+ectropion,ectropion,1.0,3741
+smallpox,smallpox,1.0,050
+smallpox,smallpox,1.0,V013
+smallpox,smallpox,1.0,V041
+smallpox,smallpox,1.0,V731
+vesicoureteral reflux,vesicoureteral reflux,1.0,5937
+nightmare disorder,sicca syndrome,0.9643729329109192,7102
+dwarfism,sicca syndrome,0.9617119431495667,7102
+poems syndrome,sicca syndrome,0.9636949300765991,7102
+acne,other acne,0.9700135588645935,7061
+phenylketonuria pku,phenylketonuria pku,1.0,2701
+phenylketonuria pku,phenylketonuria pku,1.0,V773
+vertebral tumor,vertebral artery,0.9743279814720154,4332
+tourette syndrome,raynauds syndrome,0.9090679883956909,4430
+raynauds disease,raynauds syndrome,0.970891535282135,4430
+incompetent cervix,incompetent cervix,1.0,7610
+sleep terrors night terrors,sleep related leg cramps,0.919725239276886,32752
+osteoporosis,osteoporosis,1.0,7330
+osteoporosis,osteoporosis,1.0,V1781
+osteoporosis,osteoporosis,1.0,V8281
+osteosarcoma,osteoporosis,0.9610220193862915,7330
+osteosarcoma,osteoporosis,0.9610220193862915,V1781
+osteosarcoma,osteoporosis,0.9610220193862915,V8281
+varicocele,infected hydrocele,0.9401921033859253,6031
+alcoholic hepatitis,chronic hepatitis,0.9780640602111816,5714
+herniated disk,hernia of unspecified site with gangrene,0.9302588701248169,5519
+balance problems,low bladder compliance,0.9443477988243103,59652
+esophageal cancer,esophagitis,0.9662926197052002,5301
+esophagitis,esophagitis,1.0,5301
+heavy menstrual bleeding,irregular menstrual cycle,0.9587473273277283,6264
+dysphagia,dysphagia,1.0,43882
+dysphagia,dysphagia,1.0,7872
+synovial sarcoma,synovitis and tenosynovitis,0.9541393518447876,7270
+peanut allergy,allergy to peanuts,0.9590407013893127,V1501
+hodgkins lymphoma hodgkins disease,hodgkins disease,0.9307504296302795,201
+hodgkins lymphoma hodgkins disease,hodgkins disease,0.9307504296302795,V1072
+thrombocytosis,"Thrombocytopenia, unspecified",0.9589586853981018,2875
+thrombocytopenia,"Thrombocytopenia, unspecified",0.9647157788276672,2875
+dementia,dementias,0.9885582327842712,290
+syphilis,syphilis,1.0,6470
+low blood pressure hypotension,chronic hypotension,0.9401790499687195,4581
+huntingtons disease,schilders disease,0.9509011507034302,3411
+sciatica,sciatia,0.958191454410553,7243
+ulnar wrist pain,precordial pain,0.9328072667121887,78651
+hamstring injury,dislocation of knee,0.9454534649848938,836
+ambiguous genitalia,external genitalia,0.9651613235473633,9260
+tonsil cancer,chronic tonsillitis,0.9599950313568115,47400
+pituitary tumors,pituitary dwarfism,0.9588721990585327,2533
+microscopic colitis,noninfectious enteritis and colitis ,0.951166570186615,555-558
+antibioticassociated diarrhea,noninfectious enteritis and colitis ,0.9422746896743774,555-558
+compulsive gambling,obsessivecompulsive disorders,0.9296311736106873,3003
+liver cancer,liver primary,0.9556843638420105,1550
+heart disease,heart failure,0.9703711867332458,428
+heart failure,heart failure,1.0,428
+albinism,voyeurism,0.9572564959526062,30282
+mcad deficiency,voyeurism,0.9508585929870605,30282
+mortons neuroma,voyeurism,0.9524353742599487,30282
+genital warts,genital organs,0.9517248272895813,19882
+genital warts,genital organs,0.9517248272895813,9224
+genital warts,genital organs,0.9517248272895813,V104
+genital warts,genital organs,0.9517248272895813,V164
+genital warts,genital organs,0.9517248272895813,V4577
+eisenmenger syndrome,werdnighoffmann disease,0.9378559589385986,3350
+poison ivy rash,diaper or napkin rash,0.9484995007514954,6910
+granuloma annulare,granuloma inguinale,0.9617564678192139,0992
+selective iga deficiency,selective iga immunodeficiency,0.9584763646125793,27901
+chlamydia trachomatis,chlamydia trachomatis,1.0,09941
+nasal polyps,nasal polyps,1.0,471
+sleepwalking,sleep disturbances,0.9498348236083984,7805
+angina,herpangina,0.9655603766441345,0740
+mood disorders,other personality disorders,0.9745181202888489,3018
+eating disorders,other personality disorders,0.9735453128814697,3018
+fuchs dystrophy,dystrophies primarily involving bruchs membrane,0.9369472861289978,36277
+giant cell arteritis,giant cell arteritis,1.0,4465
+ewing sarcoma,equatorial staphyloma,0.9654399156570435,37913
+ependymoma,equatorial staphyloma,0.9188251495361328,37913
+coma,coma,1.0,78001
+kidney infection,panuveitis,0.9604844450950623,36012
+radiation enteritis,panuveitis,0.956271767616272,36012
+thumb arthritis,arthritis,0.9559580087661743,V134
+thumb arthritis,arthritis,0.9559580087661743,V177
+arthritis,arthritis,1.0,V134
+arthritis,arthritis,1.0,V177
+knee bursitis,arthritis,0.9612768292427063,V134
+knee bursitis,arthritis,0.9612768292427063,V177
+ehrlichiosis and anaplasmosis,ehrlichiosis,0.9477815628051758,0824
+intracranial hematoma,intracranial abscess,0.9661998152732849,3240
+hydrocephalus,hydronephrosis,0.9617816209793091,591
+hydronephrosis,hydronephrosis,1.0,591
+nasal and paranasal tumors,malignant neoplasm of nasal cavities middle ear and accessory sinuses,0.9327772259712219,160
+trachoma,trachoma,1.0,076
+trachoma,trachoma,1.0,V736
+indigestion,monofixation syndrome,0.9417361617088318,37834
+dysarthria,Dysarthria,0.9924101829528809,78451
+dystonia,Dysarthria,0.9711761474609375,78451
+ovarian cysts,ovarian dysfunction,0.9605964422225952,256
+primary ovarian insufficiency,ovarian dysfunction,0.9679364562034607,256
+idiopathic hypersomnia,idiopathic hypersomnia with long sleep time,0.9760865569114685,32711
+meningitis,bacterial meningitis,0.9720866680145264,320
+epilepsy,epilepsy and recurrent seizures,0.9644234776496887,345
+heart valve disease,ischemic heart disease ,0.9640539884567261,410-414
+broken heart syndrome,ischemic heart disease ,0.9566267728805542,410-414
+melanoma,malignant melanoma of skin,0.9478245973587036,172
+melanoma,malignant melanoma of skin,0.9478245973587036,V1082
+intermittent explosive disorder,intermittent explosive disorder,1.0,31234
+long qt syndrome,long qt syndrome,1.0,42682
+henochschonlein purpura,disseminated superficial actinic porokeratosis dsap,0.9314321875572205,69275
+mesothelioma,disseminated superficial actinic porokeratosis dsap,0.9197546243667603,69275
+spina bifida,spina bifida,1.0,741
+postvasectomy pain syndrome,postlaminectomy syndrome,0.9464641213417053,7228
+eye floaters,corneal degenerations,0.9583020210266113,3714
+glioblastoma,myeloid sarcoma,0.9440894722938538,2053
+ameloblastoma,myeloid sarcoma,0.967877209186554,2053
+infant reflux,reflux esophagitis,0.958073079586029,53011
+gastroesophageal reflux disease gerd,reflux esophagitis,0.9162171483039856,53011
+wilms tumor,schmorls nodes,0.9332661628723145,7223
+heat exhaustion,burns fire,0.9509371519088745,E9581
+heat exhaustion,burns fire,0.9509371519088745,E9881
+obstructive sleep apnea,obstructive sleep apnea adult pediatric,0.958907961845398,32723
+pediatric obstructive sleep apnea,obstructive sleep apnea adult pediatric,0.9569618701934814,32723
+suspicious breast lumps,adenoid vegetations,0.9416232109069824,4742
+gout,gout,1.0,274
+gout,gout,1.0,V775
+e coli,enteroinvasive e coli,0.952330470085144,00803
+thoracic aortic aneurysm,aortic aneurysm and dissection,0.9607136845588684,441
+abdominal aortic aneurysm,aortic aneurysm and dissection,0.9701554179191589,441
+aortic aneurysm,aortic aneurysm and dissection,0.9809588193893433,441
+influenza flu,influenza,0.9673603177070618,487
+influenza flu,influenza,0.9673603177070618,V0481
+leiomyosarcoma,lymphosarcoma and reticulosarcoma,0.9516867399215698,V1071
+epithelioid sarcoma,lymphosarcoma and reticulosarcoma,0.9457189440727234,V1071
+food poisoning,other bacterial food poisoning,0.9689548015594482,0058
+food poisoning,other bacterial food poisoning,0.9689548015594482,00589
+rectal cancer,sigmoid colon,0.9595462679862976,1533
+rectal cancer,sigmoid colon,0.9595462679862976,86344
+rectal cancer,sigmoid colon,0.9595462679862976,86354
+colon cancer,sigmoid colon,0.9624337553977966,1533
+colon cancer,sigmoid colon,0.9624337553977966,86344
+colon cancer,sigmoid colon,0.9624337553977966,86354
+blood in urine hematuria,blood in stool,0.9256200790405273,5781
+urine color,blood in stool,0.9110965132713318,5781
+achalasia,aphasia,0.9596989154815674,43811
+achalasia,aphasia,0.9596989154815674,7843
+multiple sclerosis,multiple sclerosis,1.0,340
+multiple system atrophy msa,multiple sclerosis,0.9308869242668152,340
+vulvodynia,vulvodynia,1.0,6257
+vasovagal syncope,vulvodynia,0.9351156949996948,6257
+nearsightedness,dizziness and giddiness,0.9205598831176758,7804
+dizziness,dizziness and giddiness,0.9516388177871704,7804
+sunburn,sunburn,1.0,69271
+whiplash,traumatic anuria,0.951080858707428,9585
+frozen shoulder,traumatic anuria,0.9458621740341187,9585
+broken leg,traumatic anuria,0.9524624943733215,9585
+broken foot,traumatic anuria,0.949243426322937,9585
+aneurysms,other aneurysm,0.9631499648094177,442
+embryonal tumors,malignant mast cell tumors,0.9489691853523254,2026
+malignant peripheral nerve sheath tumors,malignant mast cell tumors,0.9586204886436462,2026
+germ cell tumors,malignant mast cell tumors,0.9363238215446472,2026
+chronic daily headaches,chronic tension type headache,0.9656833410263062,33912
+carotid artery disease,carotid artery,0.9596523642539978,4331
+carotid artery disease,carotid artery,0.9596523642539978,9000
+oral thrush,upper gum,0.943691074848175,1430
+de quervain tenosynovitis,"Infection by Histoplasma duboisii, retinitis",0.9458686113357544,11512
+glomerulonephritis,chronic glomerulonephritis,0.9795418977737427,582
+nonmelanoma skin cancer,other gonococcal heart disease,0.9426151514053345,09885
+movement disorders,periodic limb movement disorder,0.95268315076828,32751
+benign paroxysmal positional vertigo bppv,benign paroxysmal positional vertigo,0.952763557434082,38611
+delirium,alcohol withdrawal delirium,0.9637909531593323,2910
+sleep apnea,organic sleep apnea,0.9765703082084656,3272
+central sleep apnea,organic sleep apnea,0.9750319719314575,3272
+antisocial personality disorder,antisocial personality disorder,1.0,3017
+social anxiety disorder social phobia,antisocial personality disorder,0.9526621103286743,3017
+left ventricular hypertrophy,hyperkinetic heart disease,0.9108101725578308,42982
+shellfish allergy,allergy to seafood,0.9517067074775696,V1504
+rheumatic fever,rheumatic pneumonia,0.9811792969703674,5171
+monoclonal gammopathy of undetermined significance mgus,"Non-autoimmune hemolytic anemia, unspecified",0.9261680841445923,28310
+bells palsy,bells palsy,1.0,3510
+subarachnoid hemorrhage,subarachnoid hemorrhage,1.0,430
+subarachnoid hemorrhage,subarachnoid hemorrhage,1.0,7722
+juvenile idiopathic arthritis,juvenile chronic polyarthritis,0.9570850729942322,7143
+zollingerellison syndrome,kaschinbeck disease,0.9557379484176636,7160
+castleman disease,kaschinbeck disease,0.9101294875144958,7160
+buerger disease,kaschinbeck disease,0.9450416564941406,7160
+gastrointestinal stromal tumor gist,Gastrointestinal vessel anomaly,0.9350188970565796,74761
+epiglottitis,acute epiglottitis,0.9709961414337158,4643
+brain metastases,lymph nodes,0.9399729371070862,1765
+brain metastases,lymph nodes,0.9399729371070862,2290
+dislocated shoulder,dislocation of finger,0.9529144763946533,834
+pulmonary fibrosis,Idiopathic pulmonary fibrosis,0.9649651646614075,51631
+bags under eyes,without mention of open wound into cavity,0.9199521541595459,8640
+bags under eyes,without mention of open wound into cavity,0.9199521541595459,8650
+bags under eyes,without mention of open wound into cavity,0.9199521541595459,8660
+bags under eyes,without mention of open wound into cavity,0.9199521541595459,8680
+bags under eyes,without mention of open wound into cavity,0.9199521541595459,8690
+anterior vaginal prolapse cystocele,uterine prolapse without mention of vaginal wall prolapse,0.9471328854560852,6181
+uterine prolapse,uterine prolapse without mention of vaginal wall prolapse,0.9549568891525269,6181
+craniosynostosis,Craniorachischisis,0.950404167175293,7401
+ampullary cancer,axillary nerve,0.9400052428245544,9550
+sprains,apraxia,0.9375919699668884,43881
+absence seizure,apraxia,0.9475769400596619,43881
+tendinitis,patellar tendinitis,0.9734697341918945,72664
+patellofemoral pain syndrome,patellar tendinitis,0.9367000460624695,72664
+chronic pelvic pain,pelvic congestion syndrome,0.948737382888794,6255
+ductal carcinoma in situ dcis,carcinoma in situ ,0.9492181539535522,230-234
+sacroiliitis,sacroiliitis not elsewhere classified,0.9738667607307434,7202
+tuberous sclerosis,Tuberous sclerosis,0.9871001243591309,7595
+cradle cap,sealpox,0.9527895450592041,05912
+myelodysplastic syndromes,myelodysplastic syndrome with 5q deletion,0.9624990820884705,23874
+chronic granulomatous disease,Chronic lymphadenitis,0.9396286606788635,2891
+benign prostatic hyperplasia bph,hypertrophy benign of prostate,0.9365932941436768,6000
+cushing syndrome,cushings syndrome,0.9796392917633057,2550
+tachycardia,tachypnea,0.9666340351104736,78606
+bradycardia,tachypnea,0.9440926313400269,78606
+tonguetie ankyloglossia,ankylosis of teeth,0.9412050843238831,5216
+frontotemporal dementia,frontotemporal dementia,1.0,3311
+kidney cysts,cerebral cysts,0.9756335020065308,3480
+breast cysts,cerebral cysts,0.9723895788192749,3480
+hemifacial spasm,hemiplegic migraine,0.9455840587615967,3463
+mitral valve stenosis,mitral stenosis,0.9765656590461731,3940
+mitral valve disease,mitral stenosis,0.9653126001358032,3940
+renal artery stenosis,mitral stenosis,0.9533785581588745,3940
+tricuspid valve disease,mitral stenosis,0.9521836042404175,3940
+mitral valve regurgitation,mitral stenosis,0.9343928694725037,3940
+wrinkles,herpetic whitlow,0.9268333911895752,0546
+dupuytren contracture,herpetic whitlow,0.9440888166427612,0546
+kidney stones,calculus of kidney,0.9638248682022095,5920
+yips,chilblains,0.89979487657547,9915
+chilblains,chilblains,1.0,9915
+airplane ear,ear drum,0.9389345049858093,87261
+airplane ear,ear drum,0.9389345049858093,87271
+congenital heart disease in adults,Congenital heart block,0.9591741561889648,74686
+ebstein anomaly,Ebstein's anomaly,0.9859785437583923,7462
+gingivitis,acute gingivitis,0.9674201607704163,5230
+autoimmune pancreatitis,autoimmune hepatitis,0.973084032535553,57142
+autoimmune hepatitis,autoimmune hepatitis,1.0,57142
+pinched nerve,ulnar nerve,0.9389070868492126,9552
+schizoid personality disorder,schizoid personality disorder,1.0,3012
+nonalcoholic fatty liver disease,other chronic nonalcoholic liver disease,0.9578912258148193,5718
+common cold,common cold,1.0,V047
+cold sore,common cold,0.9552055597305298,V047
+pulmonary valve disease,chronic pulmonary heart disease,0.9698227643966675,416
+chronic kidney disease,chronic pulmonary heart disease,0.9700105786323547,416
+residual limb pain,generalized pain,0.9444936513900757,78096
+farsightedness,alcoholinduced persisting amnestic disorder,0.9170304536819458,2911
+progressive supranuclear palsy,progressive bulbar palsy,0.9653163552284241,33522
+leukoplakia,leukoplakia of penis,0.9815951585769653,6070
+spinal headaches,posttraumatic headache,0.9583593010902405,3392
+medication overuse headaches,posttraumatic headache,0.950508713722229,3392
+down syndrome,Down's syndrome,0.9477453827857971,7580
+behcets disease,foxfordyce disease,0.9403377771377563,70582
+spinal cord injury,optic nerve injury,0.9581575393676758,9500
+spinal cord tumor,optic nerve injury,0.9567110538482666,9500
+color blindness,congenital night blindness,0.9454410672187805,36861
+progeria,macrogenia,0.9460081458091736,52405
+dyshidrosis,dyshidrosis,1.0,70581
+hyperhidrosis,dyshidrosis,0.9659298658370972,70581
+marfan syndrome,Marfan syndrome,0.987619936466217,75982
+rheumatoid arthritis,rheumatoid arthritis,1.0,7140
+rheumatoid arthritis,rheumatoid arthritis,1.0,V821
+lupus nephritis,rheumatoid arthritis,0.9375101327896118,7140
+lupus nephritis,rheumatoid arthritis,0.9375101327896118,V821
+noonan syndrome,duanes syndrome,0.9520228505134583,37871
+sclerosing mesenteritis,sclerosing mesenteritis,1.0,56782
+primary sclerosing cholangitis,sclerosing mesenteritis,0.958329975605011,56782
+rosacea,rosacea,1.0,6953
+dissociative disorders,dissociative identity disorder,0.9723263382911682,30014
+latex allergy,allergy to latex,0.965763509273529,V1507
+appendicitis,appendicitis ,0.9880577325820923,540-543
+bipolar disorder,bipolar i disorder single manic episode,0.9634634256362915,2960
+popliteal artery entrapment,popliteal artery,0.9400805234909058,90441
+amenorrhea,otorrhea,0.9655075073242188,3886
+digeorge syndrome 22q112 deletion syndrome,glaucoma associated with congenital anomalies dystrophies and systemic syndromes,0.9239581227302551,3654
+ocular rosacea,rosacea conjunctivitis,0.9557313919067383,37231
+carbon monoxide poisoning,maternal hypertensive disorders,0.9507401585578918,7600
+moyamoya disease,moyamoya disease,1.0,4375
+klippeltrenaunay syndrome,Lambert-Eaton syndrome in neoplastic disease,0.9476173520088196,35831
+hypoglycemia,hypocalcemia,0.9743373990058899,27541
+tennis elbow,stress fracture,0.9353528022766113,V1352
+pseudogout,nonhealing surgical wound,0.9496390223503113,99883
+common warts,nonhealing surgical wound,0.9354608654975891,99883
+coronary artery disease,coronary atherosclerosis,0.9636014699935913,4140
+neuromyelitis optica,neuromyelitis optica,1.0,3410
+neurodermatitis,neuromyelitis optica,0.9634753465652466,3410
+overactive bladder,Neurogenic bowel,0.9464675188064575,56481
+inflammatory bowel disease ibd,Neurogenic bowel,0.9398650527000427,56481
+pelvic organ prolapse,pelvic varices,0.9491801857948303,4565
+dressler syndrome,Ehlers-Danlos syndrome,0.908279299736023,75683
+ehlersdanlos syndrome,Ehlers-Danlos syndrome,0.9652766585350037,75683
+thyroid cancer,thyroiditis,0.9811941385269165,245
+auditory processing disorder,acquired auditory processing disorder,0.9592998623847961,38845
+fecal incontinence,urinary incontinence,0.9533581137657166,7883
+urinary incontinence,urinary incontinence,1.0,7883
+hydrocele,hydrocele,1.0,603
+retractile testicle,Retractile testis,0.9729200005531311,75252
+posterior cortical atrophy,Corticobasal degeneration,0.9494370222091675,3316
+corticobasal degeneration corticobasal syndrome,Corticobasal degeneration,0.9470165967941284,3316
+hemophilia,Acquired hemophilia,0.9699683785438538,28652
+leggcalveperthes disease,graftversushost disease,0.9237642288208008,2795
+hidradenitis suppurativa,hidradenitis,0.9573473334312439,70583
+sun allergy,allergic rhinitis,0.9496011734008789,477
+head and neck cancers,chronic disease of tonsils and adenoids,0.9477710127830505,474
+peptic ulcer,peptic ulcer disease,0.9825983047485352,V1271
+atypical hyperplasia of the breast,mild dysplasia of cervix,0.933978796005249,62211
+brain tumor,cerebral embolism,0.9589815735816956,4341
+pulmonary embolism,cerebral embolism,0.9772031903266907,4341
+burning mouth syndrome,epidemic vomiting syndrome,0.9644531607627869,07882
+growth plate fractures,stress fracture of the metatarsals,0.9498031735420227,73394
+ingrown hair,ingrowing nail,0.9462167024612427,7030
+barretts esophagus,barretts esophagus,1.0,53085
+aortic valve disease,aortic valve disorders,0.9679780602455139,4241
+parkinsons disease,parkinsons disease,1.0,332
+menieres disease,parkinsons disease,0.929286539554596,332
+adrenal cancer,adrenal cortical steroids,0.9668248891830444,9620
+adrenal cancer,adrenal cortical steroids,0.9668248891830444,E9320
+adnexal tumors,adrenal cortical steroids,0.9367535710334778,9620
+adnexal tumors,adrenal cortical steroids,0.9367535710334778,E9320
+klinefelter syndrome,Klinefelter's syndrome,0.9828552007675171,7587
+lice,lumbago,0.9328904151916504,7242
+high cholesterol,pure hypercholesterolemia,0.9351915121078491,2720
+hemochromatosis,Other hemochromatosis,0.9733557105064392,27503
+prostate cancer,prostate,0.9601374864578247,2222
+prostate cancer,prostate,0.9601374864578247,2334
+prostate cancer,prostate,0.9601374864578247,2365
+prostate cancer,prostate,0.9601374864578247,V1046
+prostate cancer,prostate,0.9601374864578247,V1642
+prostate cancer,prostate,0.9601374864578247,V7644
+lung cancer,prostate,0.9563205242156982,2222
+lung cancer,prostate,0.9563205242156982,2334
+lung cancer,prostate,0.9563205242156982,2365
+lung cancer,prostate,0.9563205242156982,V1046
+lung cancer,prostate,0.9563205242156982,V1642
+lung cancer,prostate,0.9563205242156982,V7644
+compulsive sexual behavior,adult antisocial behavior,0.9440158009529114,V7101
+myasthenia gravis,myasthenia gravis,1.0,3580
+anorexia nervosa,anorexia nervosa,1.0,3071
+prediabetes,diabetes with ketoacidosis,0.9464719891548157,2501
+hemangioma,hemangioma and lymphangioma any site,0.9508667588233948,228
+undescended testicle,undescended testis,0.9832515120506287,1860
+pyoderma gangrenosum,pyoderma gangrenosum,1.0,68601
+kyphosis,kyphosis,1.0,73741
+liver disease,liver disorders in pregnancy,0.9564719200134277,6467
+atrial fibrillation,atrial fibrillation,1.0,42731
+atrial tachycardia,atrial fibrillation,0.9620484113693237,42731
+lichen planus,lichen planus,1.0,6970
+lichen sclerosus,lichen planus,0.9683757424354553,6970
+oral lichen planus,lichen planus,0.9688532948493958,6970
+pediatric brain tumors,Counseling for parent-biological child problem,0.9228613972663879,V6123
+temporal lobe seizure,frontal lobe syndrome,0.9635860323905945,3100
+frontal lobe seizures,frontal lobe syndrome,0.9479067325592041,3100
+golfers elbow,in sports,0.8979135155677795,E8860
+adult still disease,picks disease,0.9411472082138062,33111
+graves disease,picks disease,0.9669008851051331,33111
+salivary gland tumors,Accessory salivary gland,0.9510849714279175,75022
+cluster headache,chronic cluster headache,0.9717604517936707,33902
+chronic cough,chronic cluster headache,0.9615477919578552,33902
+keratosis pilaris,keratoconus,0.9602292776107788,3716
+keratoconus,keratoconus,1.0,3716
+wrist pain,Jaw pain,0.9592577815055847,78492
+knee pain,Jaw pain,0.9636871218681335,78492
+neck pain,Jaw pain,0.9724399447441101,78492
+breast pain,Jaw pain,0.9629024267196655,78492
+trigger finger,trigger finger acquired,0.9398692846298218,72703
+pancreatitis,chronic pancreatitis,0.9739406108856201,5771
+ureteral cancer,urethral stricture,0.9594600796699524,598
+urethral stricture,urethral stricture,1.0,598
+ureteral obstruction,urethral stricture,0.9678895473480225,598
+burns,burns ,0.9955005049705505,940-949
+stroke,burns ,0.9592583775520325,940-949
+cancer,burns ,0.9614887237548828,940-949
+bedsores pressure ulcers,moorens ulcer,0.9327343106269836,37007
+meralgia paresthetica,meralgia paresthetica,1.0,3551
+polio,polyuria,0.9548805952072144,78842
+hepatitis c,hepatitis c carrier,0.9773947596549988,V0262
+hepatitis a,hepatitis c carrier,0.9804793000221252,V0262
+hepatitis b,hepatitis c carrier,0.9758518934249878,V0262
+anemia,anemia,1.0,6482
+anemia,anemia,1.0,V182
+epidermolysis bullosa,eczematous dermatitis of eyelid,0.9483076333999634,37331
+primary progressive aphasia,presenile dementia with delirium,0.9591066241264343,29011
+aortic valve regurgitation,mitral valve stenosis and aortic valve stenosis,0.9449328184127808,3960
+aortic valve stenosis,mitral valve stenosis and aortic valve stenosis,0.9667792916297913,3960
+transposition of the great arteries,Complete transposition of great vessels,0.9498587250709534,74510
+chondrosarcoma,chondromalacia,0.9713905453681946,73392
+h1n1 flu swine flu,poxvirus infections unspecified,0.9064534306526184,0599
+dermatographia dermatographism,dermatitis herpetiformis,0.9497469663619995,6940
+ventricular tachycardia,ventricular fibrillation,0.9499126076698303,42741
+congenital diaphragmatic hernia cdh,Congenital hypertrophic pyloric stenosis,0.94632887840271,7505
+peripheral neuropathy,peripheral neuritis in pregnancy,0.9612948894500732,6464
+pancreatic cancer,pancreatic steatorrhea,0.9627611637115479,5794
+baker cyst,radicular cyst,0.948171079158783,5228
+ganglion cyst,radicular cyst,0.951971709728241,5228
+bursitis,other bursitis,0.9696059226989746,7273
+squamous cell carcinoma of the skin,Squamous cell carcinoma of scalp and skin of neck,0.9747644662857056,17342
+interstitial lung disease,interstitial myositis,0.9624516367912292,72881
+type 1 diabetes,diabetes mellitus,0.9551857709884644,250
+type 1 diabetes,diabetes mellitus,0.9551857709884644,6480
+type 1 diabetes,diabetes mellitus,0.9551857709884644,V180
+type 1 diabetes,diabetes mellitus,0.9551857709884644,V771
+type 2 diabetes,diabetes mellitus,0.9549081921577454,250
+type 2 diabetes,diabetes mellitus,0.9549081921577454,6480
+type 2 diabetes,diabetes mellitus,0.9549081921577454,V180
+type 2 diabetes,diabetes mellitus,0.9549081921577454,V771
+myalgic encephalomyelitischronic fatigue syndrome mecfs,toxic encephalitis myelitis and encephalomyelitis,0.9400323629379272,3237
+carcinoma of unknown primary,malignant carcinoid tumor of unknown primary site,0.9734652042388916,20920
+invasive lobular carcinoma,malignant carcinoid tumor of unknown primary site,0.9494732618331909,20920
+amnesia,dissociative amnesia,0.9503790736198425,30012
+hivaids,postvoid dribbling,0.9304163455963135,78835
+obsessivecompulsive disorder ocd,obsessivecompulsive personality disorder,0.9655892252922058,3014
+persistent depressive disorder,major depressive disorder recurrent episode,0.9596710205078125,2963
+depression major depressive disorder,major depressive disorder recurrent episode,0.9575848579406738,2963
+hemorrhoids,hemorrhoids,1.0,455
+hiccups,hiccough,0.9612784385681152,7868
+canker sore,hiccough,0.9364884495735168,7868
+hangovers,hiccough,0.9393247961997986,7868
+gaucher disease,ritters disease,0.9384729266166687,69581
+hoarding disorder,ritters disease,0.9430251717567444,69581
+amyotrophic lateral sclerosis als,amyotrophic lateral sclerosis,0.9691577553749084,33520
+carpal tunnel syndrome,carpal tunnel syndrome,1.0,3540
+inherited metabolic disorders,hereditary peripheral neuropathy,0.956031084060669,3560
+atrial septal defect asd,acquired cardiac septal defect,0.9380010366439819,42971
+pulmonary atresia with ventricular septal defect,acquired cardiac septal defect,0.9311009645462036,42971
+peripheral nerve tumors,other facial nerve disorders,0.9518222808837891,3518
+epidermoid cysts,toxic epidermal necrolysis,0.938683032989502,69515
+keratitis,keratitis,1.0,370
+separation anxiety disorder,separation anxiety disorder,1.0,30921
+illness anxiety disorder,separation anxiety disorder,0.9670609831809998,30921
+painful intercourse dyspareunia,dyspareunia psychogenic,0.9306096434593201,30276
+essential tremor,spastic hemiplegia,0.9478329420089722,3421
+jock itch,plantar wart,0.9267497658729553,07812
+plantar warts,plantar wart,0.9794874787330627,07812
+postherpetic neuralgia,postherpetic trigeminal neuralgia,0.9795334339141846,05312
+hairy cell leukemia,plasma cell leukemia,0.9645676016807556,2031
+flatfeet,lactating mother,0.917405366897583,V241
+complicated grief,complicated,0.9523083567619324,8751
+complicated grief,complicated,0.9523083567619324,8761
+complicated grief,complicated,0.9523083567619324,8771
+complicated grief,complicated,0.9523083567619324,8801
+complicated grief,complicated,0.9523083567619324,8811
+complicated grief,complicated,0.9523083567619324,8821
+complicated grief,complicated,0.9523083567619324,8831
+complicated grief,complicated,0.9523083567619324,8841
+complicated grief,complicated,0.9523083567619324,8851
+complicated grief,complicated,0.9523083567619324,8861
+complicated grief,complicated,0.9523083567619324,8901
+complicated grief,complicated,0.9523083567619324,8911
+complicated grief,complicated,0.9523083567619324,8921
+complicated grief,complicated,0.9523083567619324,8931
+complicated grief,complicated,0.9523083567619324,8941
+complicated grief,complicated,0.9523083567619324,8951
+costochondritis,osteochondropathies,0.9488804340362549,732
+gastritis,alcoholic gastritis,0.9723440408706665,5353
+delayed ejaculation,premature ejaculation,0.9734567403793335,30275
+premature ejaculation,premature ejaculation,1.0,30275
+desmoid tumors,Vascular hamartomas,0.9493077993392944,75732
+emphysema,emphysema,1.0,492
+cholecystitis,cholelithiasis,0.9676506519317627,574
+cholestasis of pregnancy,cholelithiasis,0.9542693495750427,574
+factor v leiden,genu varum acquired,0.921929657459259,73642
+merkel cell carcinoma,Secondary Merkel cell carcinoma,0.9672600626945496,20975
+corns and calluses,corns and callosities,0.9361408352851868,700
+ataxia,ataxia,1.0,43884
+acute lymphocytic leukemia,"Acute lymphoid leukemia, in remission",0.9619362950325012,20401
+agoraphobia,agoraphobia with panic disorder,0.959837019443512,30021
+dengue fever,dengue,0.9621180891990662,061
+hypertrophic cardiomyopathy,hypertrophic obstructive cardiomyopathy,0.9669873714447021,4251
+muscle cramp,heat cramps,0.9636179208755493,9922
+guillainbarre syndrome,Patau's syndrome,0.9323441982269287,7581
+focal segmental glomerulosclerosis fsgs,without lesion of renal medullary necrosis,0.9332935810089111,59000
+focal segmental glomerulosclerosis fsgs,without lesion of renal medullary necrosis,0.9332935810089111,59010
+plantar fasciitis,plantar fascial fibromatosis,0.960152804851532,72871
+restless legs syndrome,central pain syndrome,0.9585626125335693,3380
+myofascial pain syndrome,fascioliasis,0.9463090896606445,1213
+panic attacks and panic disorder,panic disorder without agoraphobia,0.9530161619186401,30001
+syringomyelia,syringomyelia and syringobulbia,0.9703454375267029,3360
+mesenteric ischemia,postdysenteric arthropathy,0.956920325756073,7113
+rickets,rickettsial diseases,0.9641215205192566,V750
+neurofibromatosis,neurofibromatosis,1.0,2377
+neuroblastoma,neurofibromatosis,0.9438771605491638,2377
+fibroadenoma,neurofibromatosis,0.9472413659095764,2377
+kawasaki disease,whipples disease,0.9556313157081604,0402
+jaw tumors and cysts,orbital cysts,0.9564329981803894,37681
+acl injury,injury to spleen,0.9491745233535767,865
+inflammatory breast cancer,inflammatory disease of breast,0.9645863175392151,6110
+cirrhosis,biliary cirrhosis,0.9699116349220276,5716
+granulomatosis with polyangiitis,"Leukemic reticuloendotheliosis, spleen",0.9439352750778198,20247
+pouchitis,Pouchitis,0.9875073432922363,56971
+female sexual dysfunction,male orgasmic disorder,0.9448678493499756,30274
+gastroparesis,gastroparesis,1.0,5363
+sacral dimple,sacral region,0.9457626342773438,7394
+hammertoe and mallet toe,enthesopathy of ankle and tarsus unspecified,0.9136483073234558,72670
+toxic hepatitis,viral hepatitis,0.9703062772750854,070
+toxic hepatitis,viral hepatitis,0.9703062772750854,V026
+toxic hepatitis,viral hepatitis,0.9703062772750854,V053
+stickler syndrome,Prune belly syndrome,0.9048953056335449,75671
+eosinophilic esophagitis,eosinophilic esophagitis,1.0,53013
+generalized anxiety disorder,generalized anxiety disorder,1.0,30002
+anxiety disorders,generalized anxiety disorder,0.9739734530448914,30002
+respiratory syncytial virus rsv,respiratory syncytial virus rsv,1.0,0796
+respiratory syncytial virus rsv,respiratory syncytial virus rsv,1.0,V0482
+mesenteric lymphadenitis,Nonspecific mesenteric lymphadenitis,0.9561943411827087,2892
+schwannoma,Schwannomatosis,0.974827766418457,23773
+sjogrens syndrome,stevensjohnson syndrome,0.953582763671875,69513
+testicular cancer,chronic adenoiditis,0.9485102295875549,47401
+schizoaffective disorder,schizoaffective disorder,1.0,2957
+mittelschmerz,mittelschmerz,1.0,6252
+geographic tongue,geographic tongue,1.0,5291
+polyhydramnios,polyhydramnios,1.0,657
+polyhydramnios,polyhydramnios,1.0,7613
+atrioventricular nodal reentry tachycardia avnrt,anomalous atrioventricular excitation,0.9037455320358276,4267
+hypercalcemia,hypercalcemia,1.0,27542
+allergies,other drug allergy,0.9552527070045471,99527
+drug allergy,other drug allergy,0.9756289720535278,99527
+food allergy,other drug allergy,0.9590562582015991,99527
+scoliosis,scoliosis,1.0,73743
+wilsons disease,caisson disease,0.9623326659202576,9933
+achilles tendinitis,achilles bursitis or tendinitis,0.9725264310836792,72671
+pneumonitis,ventilation pneumonitis,0.9772893786430359,4957
+supraventricular tachycardia,paroxysmal supraventricular tachycardia,0.9570464491844177,4270
+childhood schizophrenia,schizophrenia,0.9666540026664734,V110
+schizophrenia,schizophrenia,1.0,V110
+specific phobias,other isolated or specific phobias,0.9582953453063965,30029
+acromegaly,acromegaly and gigantism,0.962169349193573,2530
+chronic lymphocytic leukemia,"Chronic lymphoid leukemia, in remission",0.9588574171066284,20411
+diarrhea,diarrhea,1.0,78791
+narcissistic personality disorder,narcissistic personality disorder,1.0,30181
+hyperthyroidism overactive thyroid,hyperparathyroidism,0.9541957974433899,2520
+hypothyroidism underactive thyroid,hyperparathyroidism,0.9532046914100647,2520
+chickenpox,chickenpox,1.0,052
+lymphedema,other lymphedema,0.9706776142120361,4571
+multisystem inflammatory syndrome in children misc,hemolytic disease due to rh isoimmunization,0.9290741086006165,7730
+myelofibrosis,Myelofibrosis,0.9903810620307922,28983
+sarcoma,sarcoidosis,0.9547021985054016,135
+sarcoidosis,sarcoidosis,1.0,135
+pineoblastoma,gnathostomiasis,0.9271401762962341,1281
+bruxism teeth grinding,gouty tophi of ear,0.9441901445388794,27481
+dry mouth,of mouth,0.9350905418395996,1120
+acute sinusitis,acute sinusitis,1.0,461
+small bowel prolapse enterocele,diverticulosis of small intestine with hemorrhage,0.945512056350708,56202
+hip dysplasia,dysplasia of prostate,0.954033374786377,6023
+uterine fibroids,uterine leiomyoma,0.967504620552063,218
+moles,due to solvents,0.9233360886573792,6922
+csf leak cerebrospinal fluid leak,cerebrospinal fluid,0.9014084935188293,7920
+chemo brain,following chemotherapy,0.9444341659545898,V662
+chemo brain,following chemotherapy,0.9444341659545898,V672
+somatic symptom disorder,idiopathic hypersomnia without long sleep time,0.9395187497138977,32712
+tetanus,tetanus,1.0,037
+tetanus,tetanus,1.0,9784
+tetanus,tetanus,1.0,E9484
+bicuspid aortic valve,Congenital stenosis of aortic valve,0.9187857508659363,7463
+sleep disorders,organic sleep disorders,0.9776734113693237,327
+hypothermia,hypothermia,1.0,9916
+epididymitis,orchitis and epididymitis,0.959990382194519,604
+premature birth,twin pregnancy,0.9557085633277893,6510
+gonorrhea,gonorrhea,1.0,6471
+gonorrhea,gonorrhea,1.0,V027
+taysachs disease,refsums disease,0.9530210494995117,3563
+itchy skin pruritus,brawny scleritis,0.9256308674812317,37906
+mosquito bites,other mosquitoborne fever,0.9432275295257568,0663
+breast cancer,breast complicated,0.9523190855979919,8791
+retinal diseases,other retinal disorders,0.9686869382858276,362
+retinal diseases,other retinal disorders,0.9686869382858276,3628
+retinal diseases,other retinal disorders,0.9686869382858276,36289
+diabetic nephropathy kidney disease,diabetic retinopathy,0.9500576257705688,3620
+presbyopia,presbyopia,1.0,3674
+oligodendroglioma,oligohydramnios,0.9373620748519897,6580
+oligodendroglioma,oligohydramnios,0.9373620748519897,7612
+metachromatic leukodystrophy,leukodystrophy,0.9590829610824585,3300
+copd,pseudocowpox,0.9456948637962341,0511
+pulmonary atresia,pulmonary tularemia,0.969630777835846,0212
+small bowel cancer,duodenitis,0.9459317922592163,5356
+crohns disease,gouty nephropathy,0.9468653798103333,2741
+atopic dermatitis eczema,eczema herpeticum,0.9494863152503967,0540
+hyperoxaluria and oxalosis,oliguria and anuria,0.9529508948326111,7885
+cystitis,cystitis,1.0,595
+congenital adrenal hyperplasia,congenital hypothyroidism,0.9643927812576294,243
+cellulite,wound botulism,0.9528748989105225,04042
+short bowel syndrome,irritable bowel syndrome,0.9466512203216553,5641
+irritable bowel syndrome,irritable bowel syndrome,1.0,5641
+snoring,wheezing,0.9322699904441833,78607
+dry macular degeneration,secondary pigmentary degeneration,0.9557983875274658,36265
+acoustic neuroma,ischemic optic neuropathy,0.959598183631897,37741
+waldenstrom macroglobulinemia,wegeners granulomatosis,0.8901411294937134,4464
+peripheral artery disease pad,other peripheral vascular disease,0.9549958109855652,443
+brain aneurysm,cerebral aneurysm nonruptured,0.9719743728637695,4373
+constipation,constipation,1.0,5640
+hypoplastic left heart syndrome,Hypoplastic left heart syndrome,0.9875980019569397,7467
+pyloric stenosis,acquired hypertrophic pyloric stenosis,0.9365696907043457,5370
+rotator cuff injury,rotator cuff capsule,0.9592970013618469,8404
+tapeworm infection,tuberculous meningitis,0.9633132815361023,0130
+pilonidal cyst,pilonidal cyst,1.0,685
+lyme disease,lyme disease,1.0,08881
+pseudobulbar affect,Pseudobulbar affect,0.9940996170043945,31081
+gender dysphoria,developmental dyslexia,0.9562671184539795,31502
+dyslexia,developmental dyslexia,0.9569725394248962,31502
+functional dyspepsia,developmental dyslexia,0.9521265625953674,31502
+adult attentiondeficithyperactivity disorder adhd,organic disorder of excessive somnolence organic hypersomnia,0.9264475703239441,3271
+persistent postconcussive symptoms postconcussion syndrome,postconcussion syndrome,0.9540448784828186,3102
+alcohol poisoning,alcoholism,0.9780601263046265,V113
+alcohol poisoning,alcoholism,0.9780601263046265,V791
+alzheimers disease,alzheimers disease,1.0,3310
+spinal arteriovenous malformation avm,Pulmonary arteriovenous malformation,0.9434766173362732,74732
+brain avm arteriovenous malformation,Pulmonary arteriovenous malformation,0.9424102902412415,74732
+arteriovenous malformation,Pulmonary arteriovenous malformation,0.9685502052307129,74732
+leukemia,leukemia,1.0,V106
+leukemia,leukemia,1.0,V166
+neuroendocrine tumors,neuroendocrine tumors,1.0,209
+pancreatic neuroendocrine tumors,neuroendocrine tumors,0.958500325679779,209
+adrenoleukodystrophy,algoneurodystrophy,0.9515489339828491,7337
+tmj disorders,beriberi,0.9136379361152649,2650
+achilles tendon rupture,achilles tendon,0.9691880941390991,72767
+male infertility,infertility male,0.9797256588935852,606
+bronchiolitis,Respiratory bronchiolitis interstitial lung disease,0.9596337676048279,51634
+eye melanoma,corneal staphyloma,0.9466927647590637,37173
+bladder exstrophy,Exstrophy of urinary bladder,0.9678099751472473,7535
+occupational asthma,intrinsic asthma,0.9605053663253784,4931
+toxoplasmosis,toxoplasmosis,1.0,130
+suicide and suicidal thoughts,suicidal ideation,0.9370960593223572,V6284
+male breast cancer,female orgasmic disorder,0.9426857829093933,30273
+spinal stenosis,spinal muscular atrophy,0.9610423445701599,3351
+truncus arteriosus,brucella abortus,0.9295317530632019,0231
+pheochromocytoma,chromoblastomycosis,0.9428948760032654,1172
+selfinjurycutting,suicide and selfinflicted injury by submersion drowning,0.9397446513175964,E954
+cavernous malformations,choroidal rupture,0.9472976326942444,36363
+esophageal spasms,esophageal reflux,0.9596414566040039,53081
+postpartum depression,postpartum coagulation defects,0.9453453421592712,6663
+cerebral palsy,infantile cerebral palsy,0.963360607624054,343
+dry socket,accretions on teeth,0.9274218082427979,5236
+transient ischemic attack tia,transient ischemic attack tia and cerebral infarction without residual deficits,0.9652143716812134,V1254
+tinea versicolor,pityriasis versicolor,0.9280997514724731,1110
+asthma attack,asthma,0.9643532037734985,493
+asthma attack,asthma,0.9643532037734985,V175
+asthma,asthma,1.0,493
+asthma,asthma,1.0,V175
+bronchitis,bronchiectasis,0.9622639417648315,494
+carcinoid tumors,malignant carcinoid tumors of other sites,0.9617322683334351,20929
+rectal prolapse,rectal prolapse,1.0,5691
+anal fissure,anal fissure,1.0,5650
+psoriasis,psoriatic arthropathy,0.9732266664505005,6960
+voice disorders,voice disturbance,0.9789841175079346,7844
+endstage renal disease,end stage renal disease,0.9601523876190186,5856
+precocious puberty,precocious sexual development and puberty not elsewhere classified,0.9531835913658142,2591
+vascular rings,central portion,0.9286329746246338,1741
+cervicitis,cervicalgia,0.9730143547058105,7231
+cervical cancer,cervicalgia,0.956970751285553,7231
+ischemic colitis,ulcerative colitis,0.9574263095855713,556
+ulcerative colitis,ulcerative colitis,1.0,556
+stress incontinence,stress incontinence male,0.9765200018882751,78832
+trigeminal neuralgia,trigeminal neuralgia,1.0,3501
+viral hemorrhagic fevers,varicella hemorrhagic pneumonitis,0.9453781843185425,0521
+chest pain,chest pain,1.0,7865
+shaken baby syndrome,shaken infant syndrome,0.9759249091148376,99555
+pemphigus,pemphigus,1.0,6944
+low sex drive in women,gender identity disorder in children,0.9543046951293945,3026
+median arcuate ligament syndrome mals,broad ligament laceration syndrome,0.9367609620094299,6206
+c difficile infection,clostridium difficile,0.9605369567871094,00845
+total anomalous pulmonary venous return tapvr,Total anomalous pulmonary venous connection,0.9468121528625488,74741
+pleurisy,pleurisy,1.0,511
+bedbugs,multiphasic screening,0.9264401793479919,V826
+ruptured spleen,rupture of artery,0.9572266340255737,4472
+preterm labor,postterm infant,0.9534221291542053,76621
+cutaneous tcell lymphoma,peripheral t cell lymphoma,0.9446738958358765,2027
+hay fever,yellow fever,0.9673041105270386,060
+hay fever,yellow fever,0.9673041105270386,V044
+hay fever,yellow fever,0.9673041105270386,V734
+myocarditis,myocardial degeneration,0.9609075784683228,4291
+encephalitis,toxic encephalitis and encephalomyelitis,0.9680787920951843,32371
+lip cancer,lipoma,0.9707701206207275,214
+pericarditis,adhesive pericarditis,0.9703403115272522,4231
+chronic myelogenous leukemia,"Chronic myeloid leukemia, in remission",0.962641716003418,20511
+sudden infant death syndrome sids,sudden infant death syndrome,0.9474054574966431,7980
+erectile dysfunction,testicular dysfunction,0.9654496312141418,257
+common variable immunodeficiency,common variable immunodeficiency,1.0,27906
+hemolytic uremic syndrome hus,Hemolytic-uremic syndrome,0.9521141052246094,28311
+celiac disease,celiac disease,1.0,5790
+coarctation of the aorta,Coarctation of aorta (preductal) (postductal),0.9356389045715332,74710
+primary biliary cholangitis,other cholecystitis,0.9546397924423218,5751
+autism spectrum disorder,explosive personality disorder,0.9665269255638123,3013
+hypospadias,hypospadias,1.0,V1361
+wolffparkinsonwhite wpw syndrome,megacolon other than hirschsprungs,0.9071796536445618,5647
+enlarged breasts in men gynecomastia,glaucoma associated with chamber angle anomalies,0.9411017298698425,36541
+kleptomania,kleptomania,1.0,31232
+intracranial venous malformations,intracranial injury excluding those with skull fracture ,0.9397242665290833,850-854
+diabetes,obesity,0.958415150642395,V778
+obesity,obesity,1.0,V778
+menopause,premature menopause,0.9668973684310913,25631
+miscarriage,intrauterine death,0.9013410806655884,6564
+oppositional defiant disorder odd,oppositional defiant disorder,0.9782690405845642,31381
+soft palate cancer,chronic laryngitis,0.9397371411323547,4760
+scorpion sting,scorpion,0.9398822784423828,E9052
+infertility,infertility female,0.9609244465827942,628
+morning sickness,west nile fever,0.9065243005752563,0664
+diverticulitis,diverticulitis of colon with hemorrhage,0.9480442404747009,56213
+polycystic kidney disease,polycystic kidney,0.9741266369819641,V1861
+diabetes insipidus,diabetes insipidus,1.0,2535
+addisons disease,legionnaires disease,0.9300460815429688,48284
+bee sting,dog bite,0.959951639175415,E9060
+doubleoutlet right ventricle,Double outlet right ventricle,0.928766667842865,74511
+back pain,abdominal pain,0.9600049257278442,7890
+bacterial vaginosis,Vaginal agenesis,0.9539415240287781,75245
+vaginal cancer,Vaginal agenesis,0.9583021998405457,75245
+vaginal agenesis,Vaginal agenesis,0.9908552765846252,75245
+schizotypal personality disorder,schizotypal personality disorder,1.0,30122
+hepatopulmonary syndrome,Hepatopulmonary syndrome,0.9873936176300049,5735
+multiple endocrine neoplasia type 2 men 2,multiple endocrine neoplasia men type i,0.9732096791267395,25801
+multiple endocrine neoplasia type 1 men 1,multiple endocrine neoplasia men type i,0.9746419787406921,25801
+partial anomalous pulmonary venous return,Partial anomalous pulmonary venous connection,0.9792194366455078,74742
+tricuspid valve regurgitation,rheumatic mitral insufficiency,0.9145123958587646,3941
+migraine,migraine,1.0,346
+coronavirus disease 2019 covid19,exposure to sarsassociated coronavirus,0.9406846165657043,V0182
+familial adenomatous polyposis,Familial polycythemia,0.9549760222434998,2896
+swimmers itch,referred pain,0.9369942545890808,38872
+ards,siderosis,0.9443852305412292,36023
+chronic hives,infection chronic,0.952135443687439,99762
+nail fungus,other gramnegative organisms,0.9441763162612915,04185
+hypopituitarism,panhypopituitarism,0.9691257476806641,2532
+thoracic outlet syndrome,thoracic region,0.9433291554450989,72141
+thoracic outlet syndrome,thoracic region,0.9433291554450989,72231
+thoracic outlet syndrome,thoracic region,0.9433291554450989,72272
+thoracic outlet syndrome,thoracic region,0.9433291554450989,72282
+thoracic outlet syndrome,thoracic region,0.9433291554450989,72292
+thoracic outlet syndrome,thoracic region,0.9433291554450989,72401
+thoracic outlet syndrome,thoracic region,0.9433291554450989,7392
+molar pregnancy,tubal pregnancy,0.946635901927948,6331
+athletes foot,of foot,0.9546639919281006,1104
+anorgasmia in women,"Polyhydramnios, delivered, with or without mention of antepartum condition",0.9376104474067688,65701
+eyestrain,tropical sprue,0.9109933376312256,5791
+niemannpick,tropical sprue,0.9246989488601685,5791
+acute myelogenous leukemia,"Acute myeloid leukemia, in remission",0.9667955636978149,20501
+pink eye conjunctivitis,inclusion conjunctivitis,0.9566195011138916,0770
+mental illness,psychiatric condition,0.9649912714958191,V170
+lewy body dementia,dementia with lewy bodies,0.9689338803291321,33182
+shigella infection,shigellosis,0.9734336137771606,004
+black hairy tongue,mottled teeth,0.9286261796951294,5203
+spontaneous coronary artery dissection scad,dissection of coronary artery,0.9539278745651245,41412
+peripheral nerve injuries,other cranial and peripheral nerve injuries,0.9621111750602722,7677
+rectovaginal fistula,urethral fistula,0.9470154047012329,5991
+myoclonus,myoclonus,1.0,3332
+body dysmorphic disorder,stereotypic movement disorder,0.937200129032135,3073
+hypereosinophilic syndrome,hyperaldosteronism,0.946731448173523,2551
+childhood obesity,morbid obesity,0.9541311264038086,27801
+iga nephropathy berger disease,gouty nephropathy unspecified,0.9296069145202637,27410
+nasopharyngeal carcinoma,nasopharyngeal diphtheria,0.9508587121963501,0321
+scleroderma,scleritis with corneal involvement,0.9566803574562073,37905
+paraneoplastic syndromes of the nervous system,poliomyelitis and other nonarthropodborne viral diseases and prion diseases of central nervous system ,0.9462028741836548,045-049
+gallbladder cancer,gallbladder,0.9670237302780151,1560
+heatstroke,neurosis,0.9391902089118958,V112
+porphyria,pyoderma,0.9419044256210327,6860
+urinary tract infection uti,urinary tract infection,0.9584951400756836,V1302
+scabies,scabies,1.0,1330
+rem sleep behavior disorder,rem sleep behavior disorder,1.0,32742
+polycystic ovary syndrome pcos,polycystic ovaries,0.9666622877120972,2564
+glioma,Secondary neuroendocrine tumor of liver,0.9407044053077698,20972
+nephrogenic systemic fibrosis,nephrogenic diabetes insipidus,0.9536411166191101,5881
+galactorrhea,galactorrhea,1.0,6766
+chiari malformation,swanneck deformity,0.9189744591712952,73622
+peyronies disease,peyronies disease,1.0,60785
+xlinked agammaglobulinemia,congenital hypogammaglobulinemia,0.9524911642074585,27904
+bulimia nervosa,bulimia nervosa,1.0,30751
+shin splints,polishes,0.9089673757553101,E8612
+vulvar cancer,vulvar vestibulitis,0.964137613773346,62571
+keloid scar,keloid scar,1.0,7014
+hereditary hemorrhagic telangiectasia,hereditary hemorrhagic telangiectasia,1.0,4480
+travelers diarrhea,functional diarrhea,0.9904398322105408,5645
+angelman syndrome,stiffman syndrome,0.945622444152832,33391
+patent ductus arteriosus pda,Patent ductus arteriosus,0.9319471716880798,7470
+varicose veins,varicose veins of legs,0.9698969125747681,6710
+bone spurs,short bones of lower limb,0.9414517283439636,1708
+bone spurs,short bones of lower limb,0.9414517283439636,2138
+foot drop,chyluria,0.9504439830780029,7911
+acute coronary syndrome,intermediate coronary syndrome,0.9654994606971741,4111
+stuttering,stuttering,1.0,3070
+childhood apraxia of speech,alexia and dyslexia,0.9417888522148132,78461
+peritonitis,peritonitis and retroperitoneal infections,0.9627050757408142,567
+multiple myeloma,multiple myeloma,1.0,2030
+cataracts,cataract,0.9766794443130493,366
+nonhodgkins lymphoma,hodgkins sarcoma,0.9386419653892517,2012
+alphagal syndrome,astragalus,0.9134384393692017,82521
+alphagal syndrome,astragalus,0.9134384393692017,82531
+hives and angioedema,abscess of bartholins gland,0.9459688067436218,6163
+hyponatremia,hypovolemia,0.9703577160835266,27652
+heart arrhythmia,cardiac dysrhythmias,0.9518281817436218,427
+type 1 diabetes in children,secondary diabetes mellitus,0.94012051820755,249
+type 2 diabetes in children,secondary diabetes mellitus,0.9412349462509155,249
+cardiomyopathy,cardiomyopathy,1.0,425
+calciphylaxis,encopresis,0.9166226983070374,3077
+personality disorders,personality disorders,1.0,301
+attentiondeficithyperactivity disorder adhd in children,"Thyroid dysfunction of mother, delivered, with or without mention of antepartum condition",0.9232156872749329,64811
+polymyositis,polymyositis,1.0,7104
+cleft lip and cleft palate,cleft palate and cleft lip,0.9773305654525757,749
+mastitis,chronic mastoiditis,0.9676772356033325,3831
+seborrheic dermatitis,seborrheic dermatitis,1.0,6901
+borderline personality disorder,borderline personality disorder,1.0,30183
+kaposi sarcoma,kaposis sarcoma,0.9668238162994385,176
+enlarged spleen splenomegaly,splenomegaly,0.9457173943519592,7892
+morphea,sphenoidal,0.9362855553627014,4613
+morphea,sphenoidal,0.9362855553627014,4733
+perimenopause,vivax malaria benign tertian,0.9492848515510559,0841
+dandruff,bartonellosis,0.9139987230300903,0880
+depersonalizationderealization disorder,depersonalization disorder,0.958961009979248,3006
+systemic mastocytosis,other monocytic leukemia,0.9512375593185425,2068
+colon polyps,colonic polyps,0.9803497791290283,V1272
+colon polyps,colonic polyps,0.9803497791290283,V1851
+retinal detachment,retinal detachment with retinal defect,0.9691967964172363,3610
+mild cognitive impairment mci,dual sensory impairment,0.9395028948783875,V4985
+pectus excavatum,Pectus excavatum,0.9899684190750122,75481
+soft tissue sarcoma,carcinoma in situ of skin,0.9433194398880005,232
+dry skin,skin,0.9469926357269287,1760
+dry skin,skin,0.9469926357269287,1982
+dry skin,skin,0.9469926357269287,2382
+dry skin,skin,0.9469926357269287,3063
+dry skin,skin,0.9469926357269287,V423
+dry skin,skin,0.9469926357269287,V591
+dry skin,skin,0.9469926357269287,V7643
+osteomyelitis,osteopathy resulting from poliomyelitis,0.9745464324951172,7307
+lynch syndrome,secondary parkinsonism,0.9415712952613831,3321
+popliteal artery aneurysm,aneurysm of pulmonary artery,0.9489143490791321,4171
+hiatal hernia,inguinal hernia,0.9598012566566467,550
+prostatitis,chronic prostatitis,0.9664018154144287,6011
+stage 4 prostate cancer,chronic prostatitis,0.9353411793708801,6011
+tonicclonic grand mal seizure,tonic pupillary reaction,0.9392030835151672,37946
+bullous pemphigoid,pemphigoid,0.9586073756217957,6945
+low sperm count,elevated prostate specific antigen psa,0.9442793130874634,79093
+radiation sickness,dust storm,0.9412221908569336,E9084
+tinnitus,tinnitus,1.0,3883
+anal fistula,anal fistula,1.0,5651
+botulism,infant botulism,0.9607290625572205,04041
+iritis,blepharitis,0.9406386613845825,3730
+pneumonia,viral pneumonia,0.9728674292564392,480
+adjustment disorders,adjustment disorder with anxiety,0.9661485552787781,30924
+tetralogy of fallot,Tetralogy of fallot,0.9913906455039978,7452
+benign adrenal tumors,benign neoplasm of thyroid glands,0.9615031480789185,226
+posttraumatic stress disorder ptsd,posttraumatic stress disorder,0.9570286870002747,30981
+gastrointestinal bleeding,gastrointestinal tract,0.9721928834915161,7934
+gastrointestinal bleeding,gastrointestinal tract,0.9721928834915161,9473
+gastrointestinal bleeding,gastrointestinal tract,0.9721928834915161,V100
+gastrointestinal bleeding,gastrointestinal tract,0.9721928834915161,V160
+brachial plexus injury,brachial plexus lesions,0.9743307828903198,3530
+trichotillomania hairpulling disorder,herpes zoster keratoconjunctivitis,0.9470183849334717,05321
+contact dermatitis,contact dermatitis and other eczema,0.9716174602508545,692
+ovarian cancer,ovarian pregnancy,0.9714317321777344,6332
+yeast infection vaginal,other cestode infection,0.9501491785049438,123
+muscle strains,spasm of muscle,0.9327108860015869,72885
+atelectasis,primary atelectasis,0.9623572826385498,7704
+wet macular degeneration,nodular degeneration of cornea,0.9539466500282288,37146
+bad breath,heartburn,0.9416885375976562,7871
+scrotal masses,scrotum and testes complicated,0.9547850489616394,8783
+posterior vaginal prolapse rectocele,prolapse of vaginal vault after hysterectomy,0.9522069096565247,6185
+astrocytoma,mycotic mycetomas,0.9458023905754089,1174
+prescription drug abuse,child physical abuse,0.9745425581932068,99554
+reyes syndrome,reyes syndrome,1.0,33181
+cavitiestooth decay,excessive attrition localized,0.9252073764801025,52114
+esophageal varices,esophageal varices with bleeding,0.9702751636505127,4560
+amyloidosis,amyloidosis,1.0,2773
+glaucoma,glaucoma,1.0,365
+glaucoma,glaucoma,1.0,V801
+meningioma,meningismus,0.9486039876937866,7816
+frostbite,ratbite fever,0.9566202163696289,026
+bedwetting,burning bedclothes,0.9399459362030029,E8980
+fibromuscular dysplasia,myotonic muscular dystrophy,0.9473040699958801,35921
+benign peripheral nerve tumor,benign carcinoid tumor of the kidney,0.9558480978012085,20964
+intestinal ischemia,diverticulitis of small intestine with hemorrhage,0.9553152322769165,56203
+praderwilli syndrome,Prader-Willi syndrome,0.9718576669692993,75981
+sprained ankle,dislocation of ankle,0.9322940111160278,837
+chronic sinusitis,chronic sinusitis,1.0,473
+solitary fibrous tumor,solitary cyst of breast,0.9544568061828613,6100
+sudden cardiac arrest,sudden cardiac arrest,1.0,V1253
+ten,lightning,0.9704266786575317,E907
+rhabdomyosarcoma,rhabdomyolysis,0.9603664875030518,72888
+atrial flutter,atrial flutter,1.0,42732
+dermatitis,dermatitis due to other radiation,0.967785120010376,69282
+jet lag disorder,deutan defect,0.9532075524330139,36852
+dural arteriovenous fistulas,arteriovenous fistula acquired,0.9560065865516663,4470
+retinoblastoma,disseminated retinitis and retinochoroiditis pigment epitheliopathy,0.9347521066665649,36315
+pneumothorax,pneumothorax,1.0,512
+immune thrombocytopenia itp,Immune thrombocytopenic purpura,0.9670246243476868,28731
+concussion,concussion,1.0,850
