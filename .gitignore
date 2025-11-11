@@ -1,5 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+preprocess/__pycache__/
+models/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -106,5 +108,14 @@ venv.bak/
 # idea
 .idea/
 
-# data
+
 data/mimic3/
+data/mimic4/
+saved/train_lab/
+
+saved/decoder_blood_weights.pth
+saved/decoder_chem_weights.pth
+saved/decoder_hema_weights.pth
+saved/joint_pretrained_model_10.pth
+
+interpretation.py

@@ -6,11 +6,11 @@ from models.layers import GCNLayer, GATLayer, Decoder, Classifier
 from models.layers import AttentionLayer, GlobalCode, GlobalVisit, GRULayer, LSTMLayer
 
 
-class DualMAR(torch.nn.Module):
+class DuaLK(torch.nn.Module):
     def __init__(self, model_config, emb_init, num_classes,
                  use_lab=False, code_fuse='simple', visit_fuse='simple', train_type='direct',
                  lab_weight=None, lab_bias=None, gnn_type='gat', **kwargs):
-        super(DualMAR, self).__init__()
+        super(DuaLK, self).__init__()
 
         # Graph Learning - GNNs
         input_dim = model_config['init_dim']

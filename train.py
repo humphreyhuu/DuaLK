@@ -8,7 +8,7 @@ import torch
 from torch_geometric.data import Data
 from torch.utils.data import DataLoader
 
-from models.model import DualMAR
+from models.model import DuaLK
 from utils import PatientDataset, load_data, get_rare_data, exclude_chronic_codes, drop_empty_admissions
 from metrics import top_k_prec_recall, f1
 from models.loss import WeightedBCEWithLogitsLoss
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
     print('The current device is:', device)
     data = data.to(str(device))
-    model = DualMAR(model_config=model_config, emb_init=data.x, num_classes=num_classes,
+    model = DuaLK(model_config=model_config, emb_init=data.x, num_classes=num_classes,
                     use_lab=use_lab, code_fuse=code_fuse, visit_fuse=visit_fuse, train_type=train_type,
                     lab_weight=lab_weight, lab_bias=lab_bias, gnn_type=gnn_type).to(device)
     print(model)

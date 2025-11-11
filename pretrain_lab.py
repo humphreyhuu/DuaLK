@@ -8,7 +8,7 @@ import torch
 from torch_geometric.data import Data
 from torch.utils.data import DataLoader
 
-from models.model import DualMAR
+from models.model import DuaLK
 from utils import PatientLabDataset, load_data
 from utils import pretrain_model_jointly, pretrain_individual_decoder
 
@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
     print('The current device is:', device)
     data = data.to(str(device))
-    model = DualMAR(model_config=model_config, emb_init=data.x, num_classes=num_classes,
+    model = DuaLK(model_config=model_config, emb_init=data.x, num_classes=num_classes,
                     use_lab=use_lab, code_fuse=code_fuse, visit_fuse=visit_fuse, train_type=train_type,
                     lab_weight=None, lab_bias=None, gnn_type=gnn_type).to(device)
     print(model)
