@@ -76,7 +76,7 @@ def generate_disease_complication_x(icd2emb, icd_map, emb_dim=1536) -> torch.Ten
 
 
 if __name__ == '__main__':
-    data_path = '../data'
+    data_path = 'data'
     dataset = 'mimic3'  # 'mimic3' or 'eicu'
     dataset_path = os.path.join(data_path, dataset)
     raw_path = os.path.join(dataset_path, 'raw')
@@ -93,23 +93,23 @@ if __name__ == '__main__':
     admission_labs_encoded = pickle.load(open(os.path.join(encoded_path, 'labs_encoded.pkl'), 'rb'))
     lab_map = pickle.load(open(os.path.join(encoded_path, 'code_maps.pkl'), 'rb'))['lab_map']
 
+    # emb_path = os.path.join(data_path, 'emb')
+    # icd9cm_emb = pickle.load(open(os.path.join(emb_path, 'icd9cm_emb.pkl'), 'rb'))
+    # icd2name = icd9cm_emb['icd2name']
+    # icd2emb = icd9cm_emb['icd2emb']
     emb_path = os.path.join(data_path, 'emb')
-    icd9cm_emb = pickle.load(open(os.path.join(emb_path, 'icd9cm_emb.pkl'), 'rb'))
-    icd2name = icd9cm_emb['icd2name']
-    icd2emb = icd9cm_emb['icd2emb']
-
-    icd2hake = pickle.load(open(os.path.join(emb_path, 'ICD2HAKE.pkl'), 'rb'))
+    icd2hake = pickle.load(open(os.path.join(emb_path, 'ICD2HAKE_2000.pkl'), 'rb'))
 
     tuples_disease2disease = generate_disease_complication_edge_index(pretrain_pids,
                                                                       patient_admission,
                                                                       admission_codes_encoded,
                                                                       code_num_pretrain)
     edge_index_disease2disease, edge_index_codes_details_disease2disease = tuples_disease2disease
-    x_disease2disease = generate_disease_complication_x(icd2emb, code_map_pretrain, emb_dim=1536)
+    # x_disease2disease = generate_disease_complication_x(icd2emb, code_map_pretrain, emb_dim=1536)
     x_disease2disease_HAKE = generate_disease_complication_x(icd2hake, code_map_pretrain, emb_dim=2000)
 
     print(len(edge_index_disease2disease))
     print(len(edge_index_disease2disease[0]))
     print(len(edge_index_codes_details_disease2disease))
-    print(x_disease2disease.shape)
+    # print(x_disease2disease.shape)
     print(x_disease2disease_HAKE.shape)

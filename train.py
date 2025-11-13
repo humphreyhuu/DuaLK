@@ -1,4 +1,5 @@
 import pickle
+import os
 
 import numpy as np
 import warnings
@@ -160,6 +161,9 @@ if __name__ == '__main__':
 
     optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=learning_rate)
 
+    os.makedirs('./saved/train', exist_ok=True)
+    torch.save(data.x.cpu(), './saved/train/initial_embeddings.pth')
+
     print('Training...')
     for epoch in range(epochs):
         adjust_learning_rate(optimizer, epoch)
@@ -213,3 +217,6 @@ if __name__ == '__main__':
         recall_str = ", ".join([f"Recall@{k}: {recall:.4f}" for k, recall in zip(ks, recall_at_k)])
         print(f'Epoch {epoch + 1}/{epochs}, Train Loss: {train_loss:.5f}, Test Loss: {test_loss:.5f}, '
               f'F1-weighted: {f1_weighted:.4f}, {recall_str}, Learning Rate: {current_lr:.6f}')
+
+        os.makedirs('./saved/train', exist_ok=True)
+        torch.save(model.state_dict(), './saved/train/checkpoint.pth')

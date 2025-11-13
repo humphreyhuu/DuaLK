@@ -46,11 +46,13 @@ class AttentionLayer(torch.nn.Module):
         self.attn_weights = torch.nn.Parameter(torch.randn(attn_dim, attn_dim))
         self.dropout = nn.Dropout(dropout)
 
-    def forward(self, x, mask=None):
+    def forward(self, x, mask=None, return_attention=False):
         scores = torch.matmul(x, self.attn_weights)  # x: (10, 256)
         attn_weights = F.softmax(scores, dim=-2)  # 0
         attn_weights = self.dropout(attn_weights)
         context_vector = torch.sum(attn_weights * x, dim=-2)  # 0
+        if return_attention:
+            return context_vector, attn_weights
         return context_vector
 
 

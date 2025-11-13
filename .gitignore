@@ -27,6 +27,9 @@ wheels/
 *.egg
 MANIFEST
 
+.DS_Store
+.claude/
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -117,5 +120,7 @@ saved/decoder_blood_weights.pth
 saved/decoder_chem_weights.pth
 saved/decoder_hema_weights.pth
 saved/joint_pretrained_model_10.pth
+saved/train/initial_embeddings.pth
+saved/train/checkpoint.pth
 
 interpretation.py
