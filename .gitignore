@@ -119,6 +119,7 @@ saved/train_lab/
 saved/decoder_blood_weights.pth
 saved/decoder_chem_weights.pth
 saved/decoder_hema_weights.pth
+saved/joint_pretrained_model_1.pth
 saved/joint_pretrained_model_10.pth
 saved/train/initial_embeddings.pth
 saved/train/checkpoint.pth

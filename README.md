@@ -5,10 +5,12 @@ Pytorch implementation of DuaLK paper
 
 ## Requirements
 - python>=3.10
-- torch==2.3.1
-- PyG
+- torch==2.1.2
+- PyG==2.5.3
 - CUDA==12.4
 - numpy, pandas, sklearn, matplotlib
+
+For LLM prompting, we use **[Llama-prompting.ipynb](LLM-KG/Llama-prompting.ipynb)** for converting raw medical text into structured triples. Note that, to lower the barrier to entry and ensure reproducibility, we use **Llama-2-13B-chat-GPTQ** (8-bit quantized) for inference. However, we find that all Llama family models (including Llama-3.1-8B, Llama-2-7B, etc.) produce highly similar triple extraction results.
 
 ## KG Demo
 
@@ -50,3 +52,18 @@ python train_hf.py
 ```
 
 We put all hyperparameters prior to the training process for all python file, which can be tuned easily to optimize performance.
+
+---
+
+## Citation
+
+If you use this knowledge graph in your research, please cite our paper:
+
+```
+@article{hu2024bridging,
+  title={Bridging Stepwise Lab-Informed Pretraining and Knowledge-Guided Learning for Diagnostic Reasoning},
+  author={Hu, Pengfei and Lu, Chang and Wang, Fei and Ning, Yue},
+  journal={arXiv preprint arXiv:2410.19955},
+  year={2024}
+}
+```
