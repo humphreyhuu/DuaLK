@@ -1,5 +1,6 @@
 import pickle
 import os
+import time
 
 import numpy as np
 import warnings
@@ -13,6 +14,16 @@ from models.model import DuaLK
 from utils import PatientDataset, load_data, get_rare_data, exclude_chronic_codes, drop_empty_admissions
 from metrics import top_k_prec_recall, f1
 from models.loss import WeightedBCEWithLogitsLoss
+
+
+def count_parameters(model):
+    """Count the total number of trainable parameters in the model"""
+    total_params = sum(p.numel() for p in model.parameters())
+    trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    print(f'Total parameters: {total_params:,}')
+    print(f'Trainable parameters: {trainable_params:,}')
+    print(f'Non-trainable parameters: {total_params - trainable_params:,}')
+    return total_params, trainable_params
 
 
 def adjust_learning_rate(optimizer, epoch):
@@ -112,7 +123,7 @@ if __name__ == '__main__':
     test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
 
     learning_rate = 0.001
-    epochs = 500
+    epochs = 50 # Set 50 for quick start
     if dataset == 'mimic3':
         num_classes = [159, 115, 16, train_codes_y.shape[1]]
     elif dataset == 'mimic4':
@@ -137,8 +148,9 @@ if __name__ == '__main__':
     print(model)
 
     if train_type in ['pretrain', 'finetune']:
+        pretrain_epochs = 1 # match with the settings in pretrain_lab.py
         print('Loading pretrained parameters...')
-        model.load_partial_state_dict(torch.load('./saved/joint_pretrained_model_10.pth', map_location=device))
+        model.load_partial_state_dict(torch.load(f'./saved/joint_pretrained_model_{pretrain_epochs}.pth', map_location=device))
         model.load_decoder_weights('./saved/decoder_hema_weights.pth',
                                    './saved/decoder_chem_weights.pth',
                                    './saved/decoder_blood_weights.pth', device)
@@ -161,11 +173,20 @@ if __name__ == '__main__':
 
     optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=learning_rate)
 
+    # Count and print model parameters
+    print('\n' + '='*50)
+    print('Model Parameter Statistics:')
+    print('='*50)
+    count_parameters(model)
+    print('='*50 + '\n')
+
     os.makedirs('./saved/train', exist_ok=True)
     torch.save(data.x.cpu(), './saved/train/initial_embeddings.pth')
 
     print('Training...')
     for epoch in range(epochs):
+        epoch_start_time = time.time()
+
         adjust_learning_rate(optimizer, epoch)
         current_lr = optimizer.param_groups[0]['lr']
         epoch_loss = 0
@@ -214,9 +235,11 @@ if __name__ == '__main__':
         ks = [10, 20, 30, 40] if code_range == 'all' else [5, 8, 15]
         _, recall_at_k = top_k_prec_recall(y_true, y_pred_sorted, ks)
 
+        epoch_time = time.time() - epoch_start_time
         recall_str = ", ".join([f"Recall@{k}: {recall:.4f}" for k, recall in zip(ks, recall_at_k)])
         print(f'Epoch {epoch + 1}/{epochs}, Train Loss: {train_loss:.5f}, Test Loss: {test_loss:.5f}, '
-              f'F1-weighted: {f1_weighted:.4f}, {recall_str}, Learning Rate: {current_lr:.6f}')
+              f'F1-weighted: {f1_weighted:.4f}, {recall_str}, Learning Rate: {current_lr:.6f}, '
+              f'Time: {epoch_time:.2f}s')
 
         os.makedirs('./saved/train', exist_ok=True)
         torch.save(model.state_dict(), './saved/train/checkpoint.pth')

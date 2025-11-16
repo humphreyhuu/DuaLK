@@ -69,8 +69,8 @@ if __name__ == '__main__':
     test_loader = DataLoader(test_subset, batch_size=256, shuffle=False)
 
     learning_rate = 0.001
-    joint_epochs = 10
-    individual_epochs = 10
+    joint_epochs = 3  # Set 3 for quick start, 10 for full training
+    individual_epochs = 3  # Set 3 for quick start, 10 for full training
     num_classes = [pretrain_codes_y_hema.shape[1], pretrain_codes_y_chem.shape[1], pretrain_codes_y_blood.shape[1]]
 
     print('The current device is:', device)
