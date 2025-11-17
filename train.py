@@ -123,7 +123,7 @@ if __name__ == '__main__':
     test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
 
     learning_rate = 0.001
-    epochs = 50 # Set 50 for quick start
+    epochs = 100 # Set for quick start, 500 for full training
     if dataset == 'mimic3':
         num_classes = [159, 115, 16, train_codes_y.shape[1]]
     elif dataset == 'mimic4':
@@ -148,7 +148,7 @@ if __name__ == '__main__':
     print(model)
 
     if train_type in ['pretrain', 'finetune']:
-        pretrain_epochs = 1 # match with the settings in pretrain_lab.py
+        pretrain_epochs = 3 # match with the settings in pretrain_lab.py
         print('Loading pretrained parameters...')
         model.load_partial_state_dict(torch.load(f'./saved/joint_pretrained_model_{pretrain_epochs}.pth', map_location=device))
         model.load_decoder_weights('./saved/decoder_hema_weights.pth',
