@@ -10,7 +10,7 @@ Pytorch implementation of DuaLK paper
 - CUDA==12.4
 - numpy, pandas, sklearn, matplotlib
 
-For LLM prompting, we use **[Llama-prompting.ipynb](LLM-KG/Llama-prompting.ipynb)** for converting raw medical text into structured triples. Note that, to lower the barrier to entry and ensure reproducibility, we use **Llama-2-13B-chat-GPTQ** (8-bit quantized) for inference. However, we find that all Llama family models (including Llama-3.1-8B, Llama-2-7B, etc.) produce highly similar triple extraction results.
+For LLM prompting, we use **[Llama-prompting.ipynb](kg_/LLM-KG/Llama-prompting.ipynb)** for converting raw medical text into structured triples. Note that, to lower the barrier to entry and ensure reproducibility, we use **Llama-2-13B-chat-GPTQ** (8-bit quantized) for inference. However, we find that all Llama family models (including Llama-3.1-8B, Llama-2-7B, etc.) produce highly similar triple extraction results.
 
 ## KG Demo
 
