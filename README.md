@@ -53,6 +53,15 @@ python train_hf.py
 
 We put all hyperparameters prior to the training process for all python file, which can be tuned easily to optimize performance.
 
+## LLM Prompt
+
+Below is the exact prompt we use for LLM-based triple extraction:
+
+![LLM prompt](prompt.png)
+
+
+
+
 ---
 
 ## Citation
