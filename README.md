@@ -16,8 +16,6 @@ For LLM prompting, we use **[Llama-prompting.ipynb](kg_/LLM-KG/Llama-prompting.i
 
 KG generation results are partly shown in `kg_` folder. Because of the folder size limitation, we only shows simplified `Ontology-KG` in `./Ontology-KG/kg_ontology.csv` and some generated triples as demo shown in `LLM-KG`.
 
-Note that, we will share the completed Diagnosis KG after the acceptance.
-
 ## KG Embedding Demo
 
 We refer to the code of [HAKE](https://github.com/MIRALab-USTC/KGE-HAKE). Thanks for their contributions.
