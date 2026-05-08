@@ -1,7 +1,7 @@
 # DuaLK
 **Title:** Bridging Stepwise Lab-Informed Pretraining and Knowledge-Guided Learning for Diagnostic Reasoning
 
-Pytorch implementation of DuaLK paper
+Pytorch implementation of DuaLK paper (published on IEEE Journal of Biomedical and Health Informatics).
 
 ## Requirements
 - python>=3.10
@@ -23,8 +23,6 @@ Note that, we will share the completed Diagnosis KG after the acceptance.
 We refer to the code of [HAKE](https://github.com/MIRALab-USTC/KGE-HAKE). Thanks for their contributions.
 
 Furthermore, we put a simplified embeddings, which stores embeddings as `float16` with ICD9 codes appearing in MIMIC, into the `data/emb/ICD2HAKE_2000.pkl` file as shown demo to let all scripts run easily.
-
-Note that, we will share the completed code embeddings after the acceptance.
 
 ## Run
 
@@ -69,10 +67,11 @@ Below is the exact prompt we use for LLM-based triple extraction:
 If you use this knowledge graph in your research, please cite our paper:
 
 ```
-@article{hu2024bridging,
-  title={Bridging Stepwise Lab-Informed Pretraining and Knowledge-Guided Learning for Diagnostic Reasoning},
+@article{hu2026bridging,
+  title={Bridging stepwise lab-informed pretraining and knowledge-guided learning for diagnostic reasoning},
   author={Hu, Pengfei and Lu, Chang and Wang, Fei and Ning, Yue},
-  journal={arXiv preprint arXiv:2410.19955},
-  year={2024}
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2026},
+  publisher={IEEE}
 }
 ```
